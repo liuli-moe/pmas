@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=./node_modules/@mark-magic/cli/dist/config.schema.json
+
+tasks:
+  - name: fetch
+    input:
+      name: '@mark-magic/plugin-ao3'
+      config:
+        url: https://forums.sufficientvelocity.com/threads/puella-magi-adfligo-systema.2538/
+        site: sufficientvelocity
+        cached: true
+    output:
+      name: '@mark-magic/plugin-local'
+      config:
+        path: ./books/en-US
+  - name: docs
+    input:
+      name: '@mark-magic/plugin-local'
+      config:
+        path: ./books/zh-CN
+    output:
+      name: '@mark-magic/plugin-docs'
+      config:
+        path: ./dist/docs
+        lang: zh-CN
+        sitemap:
+          hostname: https://pmas.liuli.moe
+        name: 魔法少女悲伤系统
+        public: ./static
+        nav:
+          - text: 社区
+            items:
+              - text: 原作
+                link: https://forums.sufficientvelocity.com/threads/2538/
+              - text: 非官方 Wiki
+                link: https://www.adfligosystema.com/
+              - text: Bilibili
+                link: https://www.bilibili.com/read/readlist/rl102508
+        logo: /logo.jpg
+  - name: epub
+    input:
+      name: '@mark-magic/plugin-local'
+      config:
+        path: ./books/zh-CN
+    output:
+      name: '@mark-magic/plugin-epub'
+      config:
+        path: ./dist/epub/魔法少女悲伤系统.epub
+        id: pmas
+        title: 魔法少女悲伤系统
+        creator: Firnagzen
+        publisher: rxliuli
+        language: zh-CN
+        cover: ./books/zh-CN/assets/cover.jpg

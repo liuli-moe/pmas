@@ -1,0 +1,20 @@
+{
+  "name": "pmas",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mark-magic && jszip-cli add dist/epub -o dist/books.zip -f",
+    "build-docs": "mark-magic --task docs",
+    "deploy": "gh-pages -d ./dist/docs --dotfiles"
+  },
+  "devDependencies": {
+    "@ffflorian/jszip-cli": "^3.6.2",
+    "@mark-magic/cli": "^0.10.0",
+    "@mark-magic/plugin-ao3": "link:/Users/rxliuli/code/web/mark-magic-dev/packages/plugin-ao3",
+    "@mark-magic/plugin-docs": "link:/Users/rxliuli/code/web/mark-magic-dev/packages/plugin-docs",
+    "@mark-magic/plugin-epub": "^0.10.0",
+    "@mark-magic/plugin-local": "link:/Users/rxliuli/code/web/mark-magic-dev/packages/plugin-local",
+    "gh-pages": "^6.1.1"
+  }
+}
