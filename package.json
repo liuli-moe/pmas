@@ -10,11 +10,10 @@
   },
   "devDependencies": {
     "@ffflorian/jszip-cli": "^3.6.2",
-    "@mark-magic/cli": "^0.10.0",
-    "@mark-magic/plugin-ao3": "link:/Users/rxliuli/code/web/mark-magic-dev/packages/plugin-ao3",
-    "@mark-magic/plugin-docs": "link:/Users/rxliuli/code/web/mark-magic-dev/packages/plugin-docs",
-    "@mark-magic/plugin-epub": "^0.10.0",
-    "@mark-magic/plugin-local": "link:/Users/rxliuli/code/web/mark-magic-dev/packages/plugin-local",
-    "gh-pages": "^6.1.1"
+    "@mark-magic/cli": "^0.11.0",
+    "@mark-magic/plugin-ao3": "^0.11.1",
+    "@mark-magic/plugin-docs": "^0.11.0",
+    "@mark-magic/plugin-epub": "^0.11.0",
+    "@mark-magic/plugin-local": "^0.11.0"
   }
 }

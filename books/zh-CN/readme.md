@@ -6,4 +6,4 @@
 
 ![cover](./assets/cover.jpg)
 
-> [原作](https://forums.sufficientvelocity.com/threads/2538/)，作者 [Firnagzen](https://forums.sufficientvelocity.com/members/firnagzen.386/)
+> 原作 [Puella Magi Adfligo Systema](https://forums.sufficientvelocity.com/threads/2538/)，作者 [Firnagzen](https://forums.sufficientvelocity.com/members/firnagzen.386/)
