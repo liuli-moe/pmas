@@ -56,6 +56,9 @@ tasks:
       name: '@mark-magic/plugin-local'
       config:
         path: ./books/zh-CN
+        ignore:
+          - '999.md'
+          - '12*.md'
     output:
       name: '@mark-magic/plugin-ao3'
       config:

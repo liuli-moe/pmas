@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^0.11.2
     version: 0.11.2
   '@mark-magic/plugin-ao3':
-    specifier: ^0.11.3
-    version: 0.11.3
+    specifier: ^0.11.4
+    version: 0.11.4
   '@mark-magic/plugin-docs':
     specifier: ^0.11.2
     version: 0.11.2(@algolia/client-search@4.22.1)(search-insights@2.13.0)
@@ -794,8 +794,8 @@ packages:
       mustache: 4.2.0
     dev: true
 
-  /@mark-magic/plugin-ao3@0.11.3:
-    resolution: {integrity: sha512-fBzE+6Kpz9ncCvG3UcxU4+omiBBOl3G7JAx9Hu69/wT4hihHaq1CBsAEzXcqtjLQGNPobpp817AaSSqkai0xew==}
+  /@mark-magic/plugin-ao3@0.11.4:
+    resolution: {integrity: sha512-6NVPDeXpr9gaWcQrAXiE9I5dOIyvhUIRakp8x/Tfs33beysI+HHx++NLtb3xPU7lTLPiqXCiXpW7dDeK/DwpYQ==}
     dependencies:
       '@liuli-util/async': 3.6.1
       '@liuli-util/markdown-util': 0.8.0
@@ -808,6 +808,7 @@ packages:
       hast-util-to-mdast: 10.1.0
       lodash-es: 4.17.21
       node-html-parser: 6.1.12
+      p-throttle: 6.1.0
       pathe: 1.1.2
       uuid: 9.0.1
     transitivePeerDependencies:
@@ -3100,6 +3101,11 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       p-limit: 4.0.0
+    dev: true
+
+  /p-throttle@6.1.0:
+    resolution: {integrity: sha512-eQMdGTxk2+047La67wefUtt0tEHh7D+C8Jl7QXoFCuIiNYeQ9zWs2AZiJdIAs72rSXZ06t11me2bgalRNdy3SQ==}
+    engines: {node: '>=18'}
     dev: true
 
   /p-try@2.2.0:
