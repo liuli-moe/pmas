@@ -11,7 +11,6 @@ on:
 permissions:
   contents: read
   pages: write
-  secrets: read
   id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
@@ -24,6 +23,8 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    environment: 
+      name: ao3
     steps:
       - name: Checkout
         uses: actions/checkout@v3
