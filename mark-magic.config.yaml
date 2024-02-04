@@ -51,3 +51,13 @@ tasks:
         publisher: rxliuli
         language: zh-CN
         cover: ./books/zh-CN/assets/cover.jpg
+  - name: publishToAo3
+    input:
+      name: '@mark-magic/plugin-local'
+      config:
+        path: ./books/zh-CN
+    output:
+      name: '@mark-magic/plugin-ao3'
+      config:
+        id: '53445904'
+        cookie: ${AO3_COOKIE}

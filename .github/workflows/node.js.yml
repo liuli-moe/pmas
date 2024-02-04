@@ -50,7 +50,12 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: dist/docs
-
+      - name: Publish to Ao3
+        run: |
+          echo "Publishing to Ao3"
+          pnpm mark-magic --task publishToAo3
+        env:
+          AO3_COOKIE: ${{ secrets.AO3_COOKIE }}
   # Deployment job
   deploy:
     environment:
