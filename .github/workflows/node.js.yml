@@ -52,7 +52,7 @@ jobs:
           path: dist/docs
       - name: Publish to Ao3
         run: |
-          echo "Publishing to Ao3"
+          echo "Publishing to Ao3, env: $AO3_COOKIE"
           pnpm mark-magic --task publishToAo3
         env:
           AO3_COOKIE: ${{ secrets.AO3_COOKIE }}
