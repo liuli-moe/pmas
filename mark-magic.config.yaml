@@ -27,6 +27,8 @@ tasks:
         name: 魔法少女悲伤系统
         public: ./static
         nav:
+          - text: GitHub
+            link: https://github.com/liuli-moe/pmas
           - text: 社区
             items:
               - text: 原作
@@ -34,7 +36,7 @@ tasks:
               - text: 非官方 Wiki
                 link: https://www.adfligosystema.com/
               - text: Bilibili
-                link: https://www.bilibili.com/read/readlist/rl102508
+                link: https://www.bilibili.com/read/readlist/rl794874
         logo: /logo.jpg
   - name: epub
     input:
