@@ -11,7 +11,7 @@
   "devDependencies": {
     "@ffflorian/jszip-cli": "^3.6.2",
     "@mark-magic/cli": "^0.12.0",
-    "@mark-magic/plugin-ao3": "^0.12.0",
+    "@mark-magic/plugin-ao3": "^0.12.3",
     "@mark-magic/plugin-docs": "^0.12.2",
     "@mark-magic/plugin-epub": "^0.12.2",
     "@mark-magic/plugin-local": "^0.12.0",

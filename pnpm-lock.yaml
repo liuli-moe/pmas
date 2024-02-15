@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^0.12.0
     version: 0.12.0
   '@mark-magic/plugin-ao3':
-    specifier: ^0.12.0
-    version: 0.12.0
+    specifier: ^0.12.3
+    version: 0.12.3
   '@mark-magic/plugin-docs':
     specifier: ^0.12.2
     version: 0.12.2(@algolia/client-search@4.22.1)(search-insights@2.13.0)
@@ -795,12 +795,13 @@ packages:
       mustache: 4.2.0
     dev: true
 
-  /@mark-magic/plugin-ao3@0.12.0:
-    resolution: {integrity: sha512-m89ecAfws8GVmQIKT2hVEGsf/tHVglwpuwTssrghwfdIk5OQQg7ZLtnwuwMlgxRc1kJ8O/cfP3bwSAqYTXm6/Q==}
+  /@mark-magic/plugin-ao3@0.12.3:
+    resolution: {integrity: sha512-HUTdgjyIA2BuxpIZe1fiasPmkRUzuaPMy/mAKBgMNYGgXahWXp+n5GuoSoP6TNlC34kOwcsM5LEUEjrtkiIbtA==}
     dependencies:
       '@liuli-util/async': 3.7.0
       '@liuli-util/markdown-util': 0.9.2
       '@mark-magic/core': 0.12.0
+      '@mark-magic/epub': 0.3.0
       '@mark-magic/utils': 0.12.0
       bottleneck: 2.19.5
       dayjs: 1.11.10
@@ -812,6 +813,7 @@ packages:
       node-html-parser: 6.1.12
       pathe: 1.1.2
       uuid: 9.0.1
+      yaml: 2.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
