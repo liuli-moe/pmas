@@ -28,6 +28,7 @@ Homura: 焰
 Mikuni Oriko: 美国织莉子
 Oriko: 织莉子
 Kure Kirika: 吴纪里香
+Kyuubey: 丘比
 Shizuki Hitom: 志筑仁美
 Gaikotsu Masami: 外工正美
 Masami: 正美
@@ -81,6 +82,7 @@ Walpurgisnacht => 魔女之夜
 城之白学院 => 私立白羽女校
 白魅学院方向 => 私立白羽女校
 悲伤种子 => 悲叹之种
+时间旅者 => 时间旅行者
 
 ## 格式约定
 
@@ -97,8 +99,8 @@ Walpurgisnacht => 魔女之夜
 
 ### 人名
 
-| 原文             | 翻译       | 说明       |
-| ---------------- | ---------- | ---------- |
+| 原文             | 翻译       | 说明                     |
+| ---------------- | ---------- | ------------------------ |
 | Kaname Madoka    | 鹿目圆     |
 | Miki Sayaka      | 美树沙耶加 |
 | Madoka           | 小圆       |
@@ -111,6 +113,7 @@ Walpurgisnacht => 魔女之夜
 | Mikuni Oriko     | 美国织莉子 |
 | Oriko            | 织莉子     |
 | Kure Kirika      | 吴纪里香   |
+| Kyuubey          | 丘比       |
 | Kirika           | 里香       |
 | Shizuki Hitomi   | 志筑仁美   |
 | Hitomi           | 仁美       |
@@ -118,21 +121,22 @@ Walpurgisnacht => 魔女之夜
 | Nagisa           | 渚         |
 | Momoe            | 百江       |
 | Charlotte        | 夏洛特     |
-| Momoe Shin       | 百江申     | 原作不存在 |
-| Shin             | 申         | 原作不存在 |
+| Momoe Shin       | 百江申     | 原作不存在               |
+| Shin             | 申         | 原作不存在               |
 | Kyouko Sakura    | 佐仓杏子   |
 | Sakura           | 杏子       |
 | Chitose Yuma     | 千岁由麻   |
 | Yuma             | 由麻       |
-| Gaikotsu Masami  | 外工正美   | 原作不存在 |
-| Masami           | 正美       | 原作不存在 |
-| Wakahisa Hiroko  | 若狭弘子   | 原作不存在 |
-| Hiroko           | 弘子       | 原作不存在 |
+| Gaikotsu Masami  | 外工正美   | 原作不存在               |
+| Masami           | 正美       | 原作不存在               |
+| Wakahisa Hiroko  | 若狭弘子   | 原作不存在               |
+| Hiroko           | 弘子       | 原作不存在               |
 | Kywjibo Kyousuke | 上条恭介   |
 | Kyousuke         | 恭介       |
 | Kywjibo          | 上条       |
-| Chie             | 千枝       | 原作不存在 |
-| Kenji            | 健二       |
+| Chie             | 千枝       | 原作不存在               |
+| Kenji            | 健二       | 沙耶加的爸爸，原作未说明 |
+| Miho             | 美穗       | 沙耶加的妈妈，原作未说明 |
 
 ### 地名
 
@@ -157,6 +161,7 @@ Walpurgisnacht => 魔女之夜
 | Aurora                    | 奥罗拉            | 原作不存在 |
 | box Witch                 | 箱之魔女          |
 | Witch of Darkness/Suleika | 黑暗的魔女/苏莱卡 |
+| Hildegard                 | 希尔德加德        |
 
 ### 专有名词
 
