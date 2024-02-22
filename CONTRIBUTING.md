@@ -29,6 +29,10 @@ Mikuni Oriko: 美国织莉子
 Oriko: 织莉子
 Kure Kirika: 吴纪里香
 Shizuki Hitom: 志筑仁美
+Gaikotsu Masami: 外工正美
+Masami: 正美
+Wakahisa Hiroko: 若狭弘子
+Hiroko: 弘子
 Hitomi: 仁美
 Momoe Nagisa: 百江渚
 Nagisa: 渚
@@ -42,6 +46,7 @@ Chitose Yuma: 千岁由麻
 Yuma: 由麻
 Kywjibo: 上条
 Grief Seed: 悲叹之种
+Grief marbles: 悲叹弹珠
 Grief: 悲伤
 Soul Gem: 灵魂宝石
 witch: 魔女
@@ -120,6 +125,9 @@ Walpurgisnacht => 魔女之夜
 | Chitose Yuma     | 千岁由麻   |
 | Yuma             | 由麻       |
 | Gaikotsu Masami  | 外工正美   | 原作不存在 |
+| Masami           | 正美       | 原作不存在 |
+| Wakahisa Hiroko  | 若狭弘子   | 原作不存在 |
+| Hiroko           | 弘子       | 原作不存在 |
 | Kywjibo Kyousuke | 上条恭介   |
 | Kyousuke         | 恭介       |
 | Kywjibo          | 上条       |
@@ -152,17 +160,18 @@ Walpurgisnacht => 魔女之夜
 
 ### 专有名词
 
-| 原文        | 翻译     |
-| ----------- | -------- |
-| witch       | 魔女     |
-| Grief Seed  | 悲叹之种 |
-| Soul Gem    | 灵魂宝石 |
-| Grief       | 悲伤     |
-| hunt        | 狩猎     |
-| Barrier     | 结界     |
-| Labyrinth   | 迷宫     |
-| Incubators  | 孵化者   |
-| hammerspace | 锤子空间 |
+| 原文          | 翻译     |
+| ------------- | -------- |
+| witch         | 魔女     |
+| Grief Seed    | 悲叹之种 |
+| Grief marbles | 悲叹弹珠 |
+| Soul Gem      | 灵魂宝石 |
+| Grief         | 悲伤     |
+| hunt          | 狩猎     |
+| Barrier       | 结界     |
+| Labyrinth     | 迷宫     |
+| Incubators    | 孵化者   |
+| hammerspace   | 锤子空间 |
 
 ### 日语罗马片假名词
 
