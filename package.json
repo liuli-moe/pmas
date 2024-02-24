@@ -4,7 +4,7 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "build": "mark-magic && jszip-cli add dist/epub -o dist/books.zip -f",
+    "fetch": "mark-magic --task fetch",
     "build-docs": "mark-magic --task docs",
     "deploy": "gh-pages -d ./dist/docs --dotfiles"
   },

@@ -35,6 +35,8 @@ Masami: 正美
 Wakahisa Hiroko: 若狭弘子
 Hiroko: 弘子
 Hitomi: 仁美
+Rain: 凛
+Rin: 凛
 Momoe Nagisa: 百江渚
 Nagisa: 渚
 Momoe: 百江
@@ -83,6 +85,27 @@ Walpurgisnacht => 魔女之夜
 白魅学院方向 => 私立白羽女校
 悲伤种子 => 悲叹之种
 时间旅者 => 时间旅行者
+
+### 修复 markdown 的 task 列表
+
+替换开头
+
+`^\*\*\\\[\]` => `---\n\n- [ ]`
+
+---
+
+替换结尾
+
+`\*\*\n\n\\=====​` => `\n\n---`
+
+---
+
+替换多级列表
+
+<!-- markdownlint-disable MD038 -->
+
+`^\\\[\]` => `- [ ]`
+`^\\- \\\[\]` => `  - [ ]`
 
 ## 格式约定
 
@@ -137,6 +160,10 @@ Walpurgisnacht => 魔女之夜
 | Chie             | 千枝       | 原作不存在               |
 | Kenji            | 健二       | 沙耶加的爸爸，原作未说明 |
 | Miho             | 美穗       | 沙耶加的妈妈，原作未说明 |
+| Rain             | 凛         | 原作不存在               |
+| Rin              | 凛         | 原作不存在               |
+| Hamasaki Akiko            | 浜崎秋子       | 原作不存在               |
+| Akiko            | 秋子       | 原作不存在               |
 
 ### 地名
 
