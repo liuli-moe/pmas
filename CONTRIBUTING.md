@@ -14,40 +14,27 @@
 
 ## prompt
 
-接下来，请按照下面的翻译对照表翻译人名或专有名词。应该特别留意只有名字的简称翻译，例如只有 Madoka 时应该翻译为小圆而非鹿目圆。
+为了确保文本的准确性和一致性，请遵循下述翻译对照表来处理人名和专有名词。特别注意，当提及的人名只有名字而没有姓氏时，应仅翻译名字的一部分，以避免过度翻译。例如，如果文本中只出现“Madoka”，则应翻译为“小圆”，而非“鹿目圆”。同理，“Homura”应翻译为“焰”，“Oriko”翻译为“织莉子”，“Mami”翻译为“麻美”，“Sabrina”翻译为“萨布丽娜”。请严格遵循以下对照表进行翻译：
 
 Kaname Madoka: 鹿目圆
-Miki Sayaka: 美树沙耶加
 Madoka: 小圆
-Sayaka: 沙耶加
+Miki Sayaka: 美树沙耶加
 Sabrina: 萨布丽娜
 Tomoe Mami: 巴麻美
-Mami: 麻美
 Akemi Homura: 晓美焰
-Homura: 焰
 Mikuni Oriko: 美国织莉子
-Oriko: 织莉子
 Kure Kirika: 吴纪里香
-Kyuubey: 丘比
-Shizuki Hitom: 志筑仁美
+Shizuki Hitomi: 志筑仁美
 Gaikotsu Masami: 外工正美
-Masami: 正美
 Wakahisa Hiroko: 若狭弘子
-Hiroko: 弘子
-Hitomi: 仁美
-Rain: 凛
-Rin: 凛
+Tachibana Sakura: 立花小樱
+Mori Rin: 森凛
+Hamasaki Akiko: 浜崎明子
 Momoe Nagisa: 百江渚
-Nagisa: 渚
-Momoe: 百江
-Charlotte: 夏洛特
 Momoe Shin: 百江申
-Shin: 申
 Kyouko Sakura: 佐仓杏子
-Sakura: 杏子
 Chitose Yuma: 千岁由麻
-Yuma: 由麻
-Kywjibo: 上条
+Kyuubey: 丘比
 Grief Seed: 悲叹之种
 Grief marbles: 悲叹弹珠
 Grief: 悲伤
@@ -83,8 +70,10 @@ Walpurgisnacht => 魔女之夜
 盒子魔女 => 箱之魔女
 城之白学院 => 私立白羽女校
 白魅学院方向 => 私立白羽女校
+城南学园 => 私立白羽女校
 悲伤种子 => 悲叹之种
 时间旅者 => 时间旅行者
+培育者 => 孵化者
 
 ### 修复 markdown 的 task 列表
 
@@ -154,15 +143,15 @@ Walpurgisnacht => 魔女之夜
 | Masami           | 正美       | 原作不存在               |
 | Wakahisa Hiroko  | 若狭弘子   | 原作不存在               |
 | Hiroko           | 弘子       | 原作不存在               |
-| Kywjibo Kyousuke | 上条恭介   |
-| Kyousuke         | 恭介       |
-| Kywjibo          | 上条       |
-| Chie             | 千枝       | 原作不存在               |
-| Kenji            | 健二       | 沙耶加的爸爸，原作未说明 |
-| Miho             | 美穗       | 沙耶加的妈妈，原作未说明 |
+| Tachibana Sakura | 立花小樱   | 原作不存在               |
+| Mori Rin         | 森凛       | 原作不存在               |
 | Rain             | 凛         | 原作不存在               |
 | Rin              | 凛         | 原作不存在               |
-| Hamasaki Akiko            | 浜崎秋子       | 原作不存在               |
+| Kywjibo Kyousuke | 上条恭介   |
+| Kyousuke         | 恭介       |
+| Kenji            | 健二       | 沙耶加的爸爸，原作未说明 |
+| Miho             | 美穗       | 沙耶加的妈妈，原作未说明 |
+| Hamasaki Akiko   | 浜崎秋子   | 原作不存在               |
 | Akiko            | 秋子       | 原作不存在               |
 
 ### 地名

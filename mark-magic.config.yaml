@@ -66,3 +66,17 @@ tasks:
       config:
         id: '53445904'
         cookie: ${AO3_COOKIE}
+  - name: trans
+    input:
+      name: '@mark-magic/plugin-local'
+      config:
+        path: ./books/en-US
+    transforms:
+      - name: '@mark-magic/plugin-doctran'
+        config:
+          engine: google
+          to: zh-CN
+    output:
+      name: '@mark-magic/plugin-local'
+      config:
+        path: ./books/zh
