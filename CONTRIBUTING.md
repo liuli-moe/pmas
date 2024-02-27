@@ -178,6 +178,7 @@ Walpurgisnacht => 魔女之夜
 | box Witch                 | 箱之魔女          |
 | Witch of Darkness/Suleika | 黑暗的魔女/苏莱卡 |
 | Hildegard                 | 希尔德加德        |
+| Gwen                      | 格温              |
 
 ### 专有名词
 
