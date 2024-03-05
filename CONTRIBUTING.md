@@ -25,15 +25,15 @@ Akemi Homura: 晓美焰
 Mikuni Oriko: 美国织莉子
 Kure Kirika: 吴纪里香
 Shizuki Hitomi: 志筑仁美
+Momoe Nagisa: 百江渚
+Momoe Shin: 百江申
+Kyouko Sakura: 佐仓杏子
+Chitose Yuma: 千岁由麻
 Gaikotsu Masami: 外工正美
 Wakahisa Hiroko: 若狭弘子
 Tachibana Sakura: 立花小樱
 Mori Rin: 森凛
 Hamasaki Akiko: 浜崎明子
-Momoe Nagisa: 百江渚
-Momoe Shin: 百江申
-Kyouko Sakura: 佐仓杏子
-Chitose Yuma: 千岁由麻
 Kyuubey: 丘比
 Grief Seed: 悲叹之种
 Grief marbles: 悲叹弹珠
