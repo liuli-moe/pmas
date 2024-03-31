@@ -1,13 +1,17 @@
 import { glob, path, fs } from 'zx'
 
-const replaces: [string | RegExp, string][] = [
+const english : [string | RegExp, string][]= [
   // 格式错误
   ['\n\n**\\[] ', '\n\n---\n\n- [ ] '],
   ['\n\\[]', '\n- [ ]'],
+  ['\n\\[x]', '\n- [x]'],
   ['\n\\- \\[]', '\n  - [ ]'],
   ['**\n\n\\=====​\n', '\n\n---\n'],
   ['\n\\-\\[x] ', '\n- [x] '],
   ['\n\\-\\[x]', '\n- [x] '],
+]
+
+const chinese: [string | RegExp, string][] = [
   // 替换单引号为双引号
   [/"(.*?)"/g, '“$1”'],
   // 替换斜体为粗体
@@ -20,8 +24,9 @@ const replaces: [string | RegExp, string][] = [
   ['-”', '——”'],
   [/([\u4e00-\u9fa5]+?)-$/mg, '$1——'],
   [/^-([\u4e00-\u9fa5]+?)/mg, '——$1'],
+  // 替换英文 , 为中文的，
+  [',', '，'],
 
-  ['Apprehension pt.', '忧虑'],
   ['鹿目小圆', '鹿目圆'],
   ['美滨市', '见泷原市'],
   ['见滨', '见泷原'],
@@ -43,11 +48,15 @@ const replaces: [string | RegExp, string][] = [
   ['悲伤种子', '悲叹之种'],
   ['时间旅者', '时间旅行者'],
   ['培育者', '孵化者'],
-  ['Sabrina', '萨布丽娜'],
+  ['力场使', '念力使'],
+  ['吉莉香', '纪里香'],
+  ['Apprehension pt.', '忧虑'],
+  // ['Sabrina', '萨布丽娜'],
 ]
 
+const replaces = process.argv[3] === 'en' ? english : chinese
+console.log('language:', process.argv[3])
 for (const it of await glob('./books/zh-CN/*.md')) {
-  // for (const it of ['./books/zh-CN/201.md']) {
   console.log(it)
   const fsPath = path.resolve(it)
   const r = replaces.reduce(

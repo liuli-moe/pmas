@@ -150,6 +150,10 @@ Homura => 焰
 | Mori Rin         | 森凛       | 原作不存在               |
 | Rain             | 凛         | 原作不存在               |
 | Rin              | 凛         | 原作不存在               |
+| Tanaka Tamiko    | 田中多美子 | 原作不存在               |
+| Minami Yumi      | 南由美     | 原作不存在               |
+| Ayano Chika      | 绫野智香   | 原作不存在               |
+| Umeko Yuko       | 梅子裕子   | 原作不存在               |
 | Kywjibo Kyousuke | 上条恭介   |
 | Kyousuke         | 恭介       |
 | Kenji            | 健二       | 沙耶加的爸爸，原作未说明 |
@@ -192,6 +196,7 @@ Homura => 焰
 | Grief marbles | 悲叹弹珠 |
 | Soul Gem      | 灵魂宝石 |
 | Grief         | 悲伤     |
+| Meguca        | 梅古卡   |
 | hunt          | 狩猎     |
 | Barrier       | 结界     |
 | Labyrinth     | 迷宫     |
