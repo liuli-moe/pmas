@@ -2,16 +2,37 @@ import { glob, path, fs } from 'zx'
 
 const english: [string | RegExp, string][] = [
   // 格式错误
+  ['[X]', '[x]'],
   ['\n\n**\\[] ', '\n\n---\n\n- [ ] '],
+  ['\n\n\\*\\*\\[] ', '\n\n---\n\n- [] '],
+  ['**\\[]', '\n---\n\n- [] '],
+  ['\n**\\[x] ', '\n---\n\n- [x] '],
   ['\n\\[]', '\n- [ ]'],
+  ['\n-\\[]', '\n- [ ]'],
   ['\n\\[x]', '\n- [x]'],
+  ['\n-\\[', '\n- ['],
+  ['\n\\[', '\n- ['],
   ['\n\\- \\[]', '\n  - [ ]'],
+  ['\n\\-- \\[]', '\n    - [ ]'],
+  ['\n\\-- \\[x]', '\n    - [x]'],
+  ['\n\\--\\[', '\n  - ['],
+  ['\n\\---\\[', '\n    - ['],
+  ['\n\\--- \\[', '\n    - ['],
+  ['\n\\----\\[', '\n      - ['],
+  ['\n\\-----\\[', '\n        - ['],
+  ['\n\\------\\[', '\n          - ['],
+  ['\n\\-------\\[', '\n            - ['],
+  ['\n\\--------\\[', '\n              - ['],
+  ['\n\\- \\[', '\n  - ['],
+  ['\n> \\[', '\n> - ['],
   ['**\n\n\\=====​\n', '\n\n---\n'],
   ['\n\\-\\[x] ', '\n- [x] '],
   ['\n\\-\\[x]', '\n- [x] '],
+  [/^~~- \\\[x\] (.+?)~~/gm, '- [x] ~~$1~~'],
+  [/^~~\\\[\] (.+?)~~/gm, '- [] ~~$1~~'],
+  [/^~~-- \\\[\] (.+?)~~/gm, '  - [ ] ~~$1~~'],
+  [/^\*\*~~\\\[\] (.+?)~~/gm, '---\n\n- [] ~~$1~~'],
   ['\\*', '*'],
-  ['Apprehension pt.', '忧虑'],
-  [`"We've Got Hostiles" pt.`, '"敌人出现"'],
 ]
 
 const chinese: [string | RegExp, string][] = [
@@ -61,12 +82,17 @@ const chinese: [string | RegExp, string][] = [
   ['由奈', '友奈'],
   ['梅子优子', '梅子裕子'],
   ['心电感应', '心灵感应'],
+  ['Apprehension pt.', '忧虑'],
+  [`"We've Got Hostiles" pt.`, '"敌人出现"'],
   // ['Sabrina', '萨布丽娜'],
 ]
 
-const replaces = process.argv[3] === 'en' ? english : chinese
+const lang = process.argv[3]
+const replaces = lang === 'en' ? english : chinese
 console.log('language:', process.argv[3])
-for (const it of await glob('./books/zh-CN/*.md')) {
+for (const it of await glob(
+  lang === 'en' ? './books/en-US/*.md' : './books/zh-CN/*.md',
+)) {
   console.log(it)
   const fsPath = path.resolve(it)
   const r = replaces.reduce(

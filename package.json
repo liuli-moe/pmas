@@ -6,7 +6,8 @@
   "scripts": {
     "fetch": "mark-magic --task fetch",
     "build-docs": "mark-magic --task docs",
-    "deploy": "gh-pages -d ./dist/docs --dotfiles"
+    "deploy": "gh-pages -d ./dist/docs --dotfiles",
+    "lint": "markdownlint -f books/en-US/*.md"
   },
   "devDependencies": {
     "@ffflorian/jszip-cli": "^3.6.2",
@@ -17,6 +18,8 @@
     "@mark-magic/plugin-epub": "^0.12.2",
     "@mark-magic/plugin-local": "^0.12.0",
     "gh-pages": "^6.1.1",
+    "markdownlint": "^0.34.0",
+    "markdownlint-cli": "^0.39.0",
     "typescript": "^5.4.2",
     "zx": "^7.2.3"
   }
