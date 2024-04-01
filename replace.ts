@@ -1,6 +1,6 @@
 import { glob, path, fs } from 'zx'
 
-const english : [string | RegExp, string][]= [
+const english: [string | RegExp, string][] = [
   // 格式错误
   ['\n\n**\\[] ', '\n\n---\n\n- [ ] '],
   ['\n\\[]', '\n- [ ]'],
@@ -9,6 +9,9 @@ const english : [string | RegExp, string][]= [
   ['**\n\n\\=====​\n', '\n\n---\n'],
   ['\n\\-\\[x] ', '\n- [x] '],
   ['\n\\-\\[x]', '\n- [x] '],
+  ['\\*', '*'],
+  ['Apprehension pt.', '忧虑'],
+  [`"We've Got Hostiles" pt.`, '"敌人出现"'],
 ]
 
 const chinese: [string | RegExp, string][] = [
@@ -22,10 +25,13 @@ const chinese: [string | RegExp, string][] = [
   // 替换 - 为中文的 ——
   [/([\u4e00-\u9fa5]+?)-([\u4e00-\u9fa5”]+?)/g, '$1——$2'],
   ['-”', '——”'],
-  [/([\u4e00-\u9fa5]+?)-$/mg, '$1——'],
-  [/^-([\u4e00-\u9fa5]+?)/mg, '——$1'],
+  [/([\u4e00-\u9fa5]+?)-$/gm, '$1——'],
+  [/^-([\u4e00-\u9fa5]+?)/gm, '——$1'],
   // 替换英文 , 为中文的，
   [',', '，'],
+  [/([\u4e00-\u9fa5]+?)!/g, '$1！'],
+  [/([\u4e00-\u9fa5]+?)\?/g, '$1？'],
+  [/([\u4e00-\u9fa5]+?):/g, '$1：'],
 
   ['鹿目小圆', '鹿目圆'],
   ['美滨市', '见泷原市'],
@@ -50,7 +56,11 @@ const chinese: [string | RegExp, string][] = [
   ['培育者', '孵化者'],
   ['力场使', '念力使'],
   ['吉莉香', '纪里香'],
-  ['Apprehension pt.', '忧虑'],
+  ['织里香', '纪里香'],
+  [/(?<!纪)(?<!吴纪)里香/g, '纪里香'],
+  ['由奈', '友奈'],
+  ['梅子优子', '梅子裕子'],
+  ['心电感应', '心灵感应'],
   // ['Sabrina', '萨布丽娜'],
 ]
 

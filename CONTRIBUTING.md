@@ -17,23 +17,60 @@
 为了确保文本的准确性和一致性，请遵循下述翻译对照表来处理人名和专有名词。特别注意，当提及的人名只有名字而没有姓氏时，应仅翻译名字的一部分，以避免过度翻译。例如，如果文本中只出现“Madoka”，则应翻译为“小圆”，而非“鹿目圆”。同理，“Homura”应翻译为“焰”，“Oriko”翻译为“织莉子”，“Mami”翻译为“麻美”，“Sabrina”翻译为“萨布丽娜”。请严格遵循以下对照表进行翻译：
 
 Kaname Madoka: 鹿目圆
-Madoka: 小圆
 Miki Sayaka: 美树沙耶加
+Madoka: 小圆
+Sayaka: 沙耶加
 Sabrina: 萨布丽娜
 Tomoe Mami: 巴麻美
+Mami: 麻美
 Akemi Homura: 晓美焰
+Homura: 焰
 Mikuni Oriko: 美国织莉子
+Oriko: 织莉子
 Kure Kirika: 吴纪里香
+Kyuubey: 丘比
+Kirika: 纪里香
 Shizuki Hitomi: 志筑仁美
+Hitomi: 仁美
 Momoe Nagisa: 百江渚
+Nagisa: 渚
+Momoe: 百江
+Charlotte: 夏洛特
 Momoe Shin: 百江申
+Shin: 申
 Kyouko Sakura: 佐仓杏子
+Sakura: 杏子
 Chitose Yuma: 千岁由麻
+Yuma: 由麻
 Gaikotsu Masami: 外工正美
+Masami: 正美
 Wakahisa Hiroko: 若狭弘子
+Hiroko: 弘子
 Tachibana Sakura: 立花小樱
 Mori Rin: 森凛
-Hamasaki Akiko: 浜崎明子
+Rain: 凛
+Rin: 凛
+Tanaka Tamiko: 田中多美子
+Minami Yumi: 南由美
+Ayano Chika: 绫野智香
+Umeko Yuko: 梅子裕子
+Tsubaki Chouko: 椿蝶子
+Suzuki Rei: 铃木丽
+Suzuki Haruna: 铃木晴奈
+Suzuki Haru: 铃木晴
+Hoshiko: 星子
+Koizumi Aki: 小泉秋
+Sato Kimiko: 佐藤公子
+Tsukada Hoshiko: 塚田星子
+Inoue Yuuna: 井上友奈
+Inoue Yuuki: 井上悠纪
+Tsubaki Chouko: 椿长子
+Kywjibo Kyousuke: 上条恭介
+Kyousuke: 恭介
+Kenji: 健二
+Miho: 美穗
+Hamasaki Akiko: 浜崎秋子
+Akiko: 秋子
 Kyuubey: 丘比
 Grief Seed: 悲叹之种
 Grief marbles: 悲叹弹珠
@@ -129,7 +166,7 @@ Homura => 焰
 | Oriko            | 织莉子     |
 | Kure Kirika      | 吴纪里香   |
 | Kyuubey          | 丘比       |
-| Kirika           | 里香       |
+| Kirika           | 纪里香     |
 | Shizuki Hitomi   | 志筑仁美   |
 | Hitomi           | 仁美       |
 | Momoe Nagisa     | 百江渚     |
@@ -145,21 +182,32 @@ Homura => 焰
 | Gaikotsu Masami  | 外工正美   | 原作不存在               |
 | Masami           | 正美       | 原作不存在               |
 | Wakahisa Hiroko  | 若狭弘子   | 原作不存在               |
+| Hamasaki Akiko   | 浜崎明子   | 原作不存在               |
+| Akiko            | 明子       | 原作不存在               |
 | Hiroko           | 弘子       | 原作不存在               |
 | Tachibana Sakura | 立花小樱   | 原作不存在               |
 | Mori Rin         | 森凛       | 原作不存在               |
 | Rain             | 凛         | 原作不存在               |
 | Rin              | 凛         | 原作不存在               |
-| Tanaka Tamiko    | 田中多美子 | 原作不存在               |
-| Minami Yumi      | 南由美     | 原作不存在               |
-| Ayano Chika      | 绫野智香   | 原作不存在               |
-| Umeko Yuko       | 梅子裕子   | 原作不存在               |
-| Kywjibo Kyousuke | 上条恭介   |
-| Kyousuke         | 恭介       |
+| Tanaka Tamiko    | 田中多美子 | 待定                     |
+| Minami Yumi      | 南由美     | 待定                     |
+| Ayano Chika      | 绫野智香   | 待定                     |
+| Umeko Yuko       | 梅子裕子   | 待定                     |
+| Tsubaki Chouko   | 椿蝶子     | 待定                     |
+| Suzuki Rei       | 铃木丽     | 待定                     |
+| Suzuki Haruna    | 铃木晴奈   | 待定                     |
+| Tsukada Hoshiko  | 塚田星子   | 待定                     |
+| Hoshiko          | 星子       | 待定                     |
+| Koizumi Aki      | 小泉秋     | 待定                     |
+| Sato Kimiko      | 佐藤公子   | 待定                     |
+| Inoue Yuuna      | 井上友奈   | 待定                     |
+| Inoue Yuuki      | 井上悠纪   | 待定                     |
+| Tsubaki Chouko   | 椿长子     | 待定                     |
+| Kato Setsuko     | 加藤雪子   | 待定                     |
+| Kywjibo Kyousuke | 上条恭介   |                          |
+| Kyousuke         | 恭介       |                          |
 | Kenji            | 健二       | 沙耶加的爸爸，原作未说明 |
 | Miho             | 美穗       | 沙耶加的妈妈，原作未说明 |
-| Hamasaki Akiko   | 浜崎秋子   | 原作不存在               |
-| Akiko            | 秋子       | 原作不存在               |
 
 ### 地名
 
@@ -189,19 +237,20 @@ Homura => 焰
 
 ### 专有名词
 
-| 原文          | 翻译     |
-| ------------- | -------- |
-| witch         | 魔女     |
-| Grief Seed    | 悲叹之种 |
-| Grief marbles | 悲叹弹珠 |
-| Soul Gem      | 灵魂宝石 |
-| Grief         | 悲伤     |
-| Meguca        | 梅古卡   |
-| hunt          | 狩猎     |
-| Barrier       | 结界     |
-| Labyrinth     | 迷宫     |
-| Incubators    | 孵化者   |
-| hammerspace   | 锤子空间 |
+| 原文                  | 翻译       | 说明 |
+| --------------------- | ---------- | ---- |
+| witch                 | 魔女       |
+| Grief Seed            | 悲叹之种   |
+| Grief marbles         | 悲叹弹珠   |
+| Soul Gem              | 灵魂宝石   |
+| Grief                 | 悲伤       |
+| Meguca                | 梅古卡     |
+| hunt                  | 狩猎       |
+| Barrier               | 结界       |
+| Labyrinth             | 迷宫       |
+| Incubators            | 孵化者     |
+| hammerspace           | 锤子空间   |
+| technology controller | 科技控制者 | 待定 |
 
 ### 日语罗马片假名词
 
