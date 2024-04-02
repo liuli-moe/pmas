@@ -5,9 +5,10 @@
   "version": "1.0.0",
   "scripts": {
     "fetch": "mark-magic --task fetch",
+    "lint": "vite-node replace.ts -t en && markdownlint -f books/en-US/*.md",
     "build-docs": "mark-magic --task docs",
     "deploy": "gh-pages -d ./dist/docs --dotfiles",
-    "lint": "markdownlint -f books/en-US/*.md"
+    "dev": "pnpm build-docs && live-server dist/docs --no-browser"
   },
   "devDependencies": {
     "@ffflorian/jszip-cli": "^3.6.2",
@@ -21,6 +22,7 @@
     "markdownlint": "^0.34.0",
     "markdownlint-cli": "^0.39.0",
     "typescript": "^5.4.2",
+    "vite-node": "^1.4.0",
     "zx": "^7.2.3"
   }
 }

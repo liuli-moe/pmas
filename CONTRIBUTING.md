@@ -4,13 +4,12 @@
 
 ## 进度
 
-| 项目           | 进度 |
-| -------------- | ---- |
-| 原作           | 845  |
-| GPT 初翻       | 130  |
-| 校对&润色      | 56   |
-| 替换斜体为粗体 | 126  |
-| 发布到 b 站    | 55   |
+| 项目           | 进度       |
+| -------------- | ---------- |
+| 原作           | 845        |
+| GPT 初翻       | 244        |
+| 校对&润色      | 56,200~225 |
+| 发布到 b 站    | 55         |
 
 ## prompt
 
@@ -28,28 +27,20 @@ Homura: 焰
 Mikuni Oriko: 美国织莉子
 Oriko: 织莉子
 Kure Kirika: 吴纪里香
-Kyuubey: 丘比
 Kirika: 纪里香
+Kyuubey: 丘比
 Shizuki Hitomi: 志筑仁美
-Hitomi: 仁美
 Momoe Nagisa: 百江渚
-Nagisa: 渚
-Momoe: 百江
 Charlotte: 夏洛特
 Momoe Shin: 百江申
-Shin: 申
 Kyouko Sakura: 佐仓杏子
-Sakura: 杏子
 Chitose Yuma: 千岁由麻
-Yuma: 由麻
 Gaikotsu Masami: 外工正美
 Masami: 正美
 Wakahisa Hiroko: 若狭弘子
-Hiroko: 弘子
+Hamasaki Akiko: 浜崎明子
 Tachibana Sakura: 立花小樱
 Mori Rin: 森凛
-Rain: 凛
-Rin: 凛
 Tanaka Tamiko: 田中多美子
 Minami Yumi: 南由美
 Ayano Chika: 绫野智香
@@ -57,20 +48,19 @@ Umeko Yuko: 梅子裕子
 Tsubaki Chouko: 椿蝶子
 Suzuki Rei: 铃木丽
 Suzuki Haruna: 铃木晴奈
-Suzuki Haru: 铃木晴
-Hoshiko: 星子
+Tsukada Hoshiko: 塚田星子
 Koizumi Aki: 小泉秋
 Sato Kimiko: 佐藤公子
-Tsukada Hoshiko: 塚田星子
 Inoue Yuuna: 井上友奈
 Inoue Yuuki: 井上悠纪
-Tsubaki Chouko: 椿长子
-Kywjibo Kyousuke: 上条恭介
-Kyousuke: 恭介
-Kenji: 健二
-Miho: 美穗
-Hamasaki Akiko: 浜崎秋子
-Akiko: 秋子
+Kato Setsuko: 加藤雪子
+Ueda Miyako: 上田美夜子
+Kagome Ayaka: 加贺目绫香
+Akiyama Atsuko: 秋山敦子
+Koizumi Sasami: 小泉砂美
+Nishimura Moe: 西村萌
+Ramiel: 蓝井
+Kuvira: 库维拉
 Kyuubey: 丘比
 Grief Seed: 悲叹之种
 Grief marbles: 悲叹弹珠
@@ -82,59 +72,6 @@ Barrier: 结界
 Labyrinth: 迷宫
 Mitakihara: 见泷原市
 Kasamino: 风见野市
-
-## GPT-4 初翻的已知错误
-
-很多人名容易错误使用全称而非简称，例如很多时候应该使用 小圆 而非 鹿目圆。
-替换单引号为双引号 `"(.*?)"` => `“$1”`
-替换斜体为粗体 `(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)|(?<!_)_(?!_)(.+?)(?<!_)_(?!_)` => `**$1**`
-鹿目小圆 => 鹿目圆
-美滨市 => 见泷原市
-见滨 => 见泷原
-笠美野 => 风见野市
-有时似乎将 Grief 翻译为 悲叹之种，需要修改为 悲伤。
-屏障 => 结界，将 Barrier 翻译为了 结界 是更合适的
-替换 - 为中文的 —— `([\u4e00-\u9fa5]+?)-([\u4e00-\u9fa5”]+?)` => `$1——$2`
-京介 => 恭介
-真纱美 => 正美，原文 Gaikotsu Masami，是一个原创魔法少女
-奥里可 => 织莉子
-Walpurgisnacht => 魔女之夜
-圣瓦尔普吉斯之夜 => 魔女之夜
-瓦尔普吉斯之夜 => 魔女之夜
-美滨中学 => 见泷原中学
-泽诺的悖论 => 芝诺悖论
-猎魔 => 狩猎
-盒子魔女 => 箱之魔女
-城之白学院 => 私立白羽女校
-白梦中学 => 私立白羽女校
-白魅学院方向 => 私立白羽女校
-城南学园 => 私立白羽女校
-悲伤种子 => 悲叹之种
-时间旅者 => 时间旅行者
-培育者 => 孵化者
-Sabrina => 萨布丽娜
-Homura => 焰
-
-### 修复 markdown 的 task 列表
-
-替换开头
-
-`^\*\*\\\[\]` => `---\n\n- [ ]`
-
----
-
-替换结尾
-
-`\*\*\n\n\\=====​` => `\n\n---`
-
----
-
-替换多级列表
-
-<!-- markdownlint-disable MD038 -->
-
-`^\\\[\]` => `- [ ]`
-`^\\- \\\[\]` => `  - [ ]`
 
 ## 格式约定
 
@@ -151,8 +88,8 @@ Homura => 焰
 
 ### 人名
 
-| 原文             | 翻译       | 说明                     |
-| ---------------- | ---------- | ------------------------ |
+| 原文             | 翻译       |
+| ---------------- | ---------- |
 | Kaname Madoka    | 鹿目圆     |
 | Miki Sayaka      | 美树沙耶加 |
 | Madoka           | 小圆       |
@@ -165,49 +102,41 @@ Homura => 焰
 | Mikuni Oriko     | 美国织莉子 |
 | Oriko            | 织莉子     |
 | Kure Kirika      | 吴纪里香   |
-| Kyuubey          | 丘比       |
 | Kirika           | 纪里香     |
+| Kyuubey          | 丘比       |
 | Shizuki Hitomi   | 志筑仁美   |
-| Hitomi           | 仁美       |
 | Momoe Nagisa     | 百江渚     |
-| Nagisa           | 渚         |
-| Momoe            | 百江       |
 | Charlotte        | 夏洛特     |
-| Momoe Shin       | 百江申     | 原作不存在               |
-| Shin             | 申         | 原作不存在               |
+| Momoe Shin       | 百江申     |
 | Kyouko Sakura    | 佐仓杏子   |
-| Sakura           | 杏子       |
 | Chitose Yuma     | 千岁由麻   |
-| Yuma             | 由麻       |
-| Gaikotsu Masami  | 外工正美   | 原作不存在               |
-| Masami           | 正美       | 原作不存在               |
-| Wakahisa Hiroko  | 若狭弘子   | 原作不存在               |
-| Hamasaki Akiko   | 浜崎明子   | 原作不存在               |
-| Akiko            | 明子       | 原作不存在               |
-| Hiroko           | 弘子       | 原作不存在               |
-| Tachibana Sakura | 立花小樱   | 原作不存在               |
-| Mori Rin         | 森凛       | 原作不存在               |
-| Rain             | 凛         | 原作不存在               |
-| Rin              | 凛         | 原作不存在               |
-| Tanaka Tamiko    | 田中多美子 | 待定                     |
-| Minami Yumi      | 南由美     | 待定                     |
-| Ayano Chika      | 绫野智香   | 待定                     |
-| Umeko Yuko       | 梅子裕子   | 待定                     |
-| Tsubaki Chouko   | 椿蝶子     | 待定                     |
-| Suzuki Rei       | 铃木丽     | 待定                     |
-| Suzuki Haruna    | 铃木晴奈   | 待定                     |
-| Tsukada Hoshiko  | 塚田星子   | 待定                     |
-| Hoshiko          | 星子       | 待定                     |
-| Koizumi Aki      | 小泉秋     | 待定                     |
-| Sato Kimiko      | 佐藤公子   | 待定                     |
-| Inoue Yuuna      | 井上友奈   | 待定                     |
-| Inoue Yuuki      | 井上悠纪   | 待定                     |
-| Tsubaki Chouko   | 椿长子     | 待定                     |
-| Kato Setsuko     | 加藤雪子   | 待定                     |
-| Kywjibo Kyousuke | 上条恭介   |                          |
-| Kyousuke         | 恭介       |                          |
-| Kenji            | 健二       | 沙耶加的爸爸，原作未说明 |
-| Miho             | 美穗       | 沙耶加的妈妈，原作未说明 |
+| Gaikotsu Masami  | 外工正美   |
+| Masami           | 正美       |
+| Wakahisa Hiroko  | 若狭弘子   |
+| Hamasaki Akiko   | 浜崎明子   |
+| Tachibana Sakura | 立花小樱   |
+| Mori Rin         | 森凛       |
+| Tanaka Tamiko    | 田中多美子 |
+| Minami Yumi      | 南由美     |
+| Ayano Chika      | 绫野智香   |
+| Umeko Yuko       | 梅子裕子   |
+| Tsubaki Chouko   | 椿蝶子     |
+| Suzuki Rei       | 铃木丽     |
+| Suzuki Haruna    | 铃木晴奈   |
+| Tsukada Hoshiko  | 塚田星子   |
+| Koizumi Aki      | 小泉秋     |
+| Sato Kimiko      | 佐藤公子   |
+| Inoue Yuuna      | 井上友奈   |
+| Inoue Yuuki      | 井上悠纪   |
+| Kato Setsuko     | 加藤雪子   |
+| Ueda Miyako      | 上田美夜子 |
+| Kagome Ayaka     | 加贺目绫香 |
+| Akiyama Atsuko   | 秋山敦子   |
+| Koizumi Sasami   | 小泉砂美   |
+| Nishimura Moe    | 西村萌     |
+| Kywjibo Kyousuke | 上条恭介   |
+| Kenji            | 健二       |
+| Miho             | 美穗       |
 
 ### 地名
 
@@ -233,6 +162,7 @@ Homura => 焰
 | box Witch                 | 箱之魔女          |
 | Witch of Darkness/Suleika | 黑暗的魔女/苏莱卡 |
 | Hildegard                 | 希尔德加德        |
+| Hildegarde                | 希尔德加德        |
 | Gwen                      | 格温              |
 
 ### 专有名词
@@ -244,13 +174,19 @@ Homura => 焰
 | Grief marbles         | 悲叹弹珠   |
 | Soul Gem              | 灵魂宝石   |
 | Grief                 | 悲伤       |
-| Meguca                | 梅古卡     |
+| Meguca                |            |
 | hunt                  | 狩猎       |
 | Barrier               | 结界       |
 | Labyrinth             | 迷宫       |
 | Incubators            | 孵化者     |
 | hammerspace           | 锤子空间   |
 | technology controller | 科技控制者 | 待定 |
+
+### 组织
+
+| 原文      | 翻译   |
+| --------- | ------ |
+| Uni group | 优妮组 |
 
 ### 日语罗马片假名词
 
