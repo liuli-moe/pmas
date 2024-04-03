@@ -90,6 +90,7 @@ const chinese: [string | RegExp, string][] = [
   ['留女组', '优妮组'],
   ['Apprehension pt.', '忧虑'],
   [`“We've Got Hostiles” pt.`, '"敌人出现"'],
+  [`"We've Got Hostiles" pt.`, '"敌人出现"'],
   // ['Sabrina', '萨布丽娜'],
 ]
 
