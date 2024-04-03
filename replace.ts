@@ -86,6 +86,8 @@ const chinese: [string | RegExp, string][] = [
   ['梅子优子', '梅子裕子'],
   ['心电感应', '心灵感应'],
   ['津叶蝶子', '椿蝶子'],
+  // ['尸体', '身体'],
+  ['留女组', '优妮组'],
   ['Apprehension pt.', '忧虑'],
   [`“We've Got Hostiles” pt.`, '"敌人出现"'],
   // ['Sabrina', '萨布丽娜'],

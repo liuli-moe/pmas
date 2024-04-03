@@ -4,12 +4,12 @@
 
 ## 进度
 
-| 项目           | 进度       |
-| -------------- | ---------- |
-| 原作           | 845        |
-| GPT 初翻       | 244        |
-| 校对&润色      | 56,200~225 |
-| 发布到 b 站    | 55         |
+| 项目        | 进度       |
+| ----------- | ---------- |
+| 原作        | 845        |
+| GPT 初翻    | 244        |
+| 校对&润色   | 56,200~240 |
+| 发布到 b 站 | 55         |
 
 ## prompt
 
@@ -46,8 +46,11 @@ Minami Yumi: 南由美
 Ayano Chika: 绫野智香
 Umeko Yuko: 梅子裕子
 Tsubaki Chouko: 椿蝶子
-Suzuki Rei: 铃木丽
 Suzuki Haruna: 铃木晴奈
+Suzuki Haru: 铃木晴
+Suzuki Rei: 铃木丽
+Haru Rei: 春丽
+Kuzue: 葛叶
 Tsukada Hoshiko: 塚田星子
 Koizumi Aki: 小泉秋
 Sato Kimiko: 佐藤公子
@@ -61,6 +64,8 @@ Koizumi Sasami: 小泉砂美
 Nishimura Moe: 西村萌
 Ramiel: 蓝井
 Kuvira: 库维拉
+Ueda Noa: 上田诺亚
+Fukui: 福井
 Kyuubey: 丘比
 Grief Seed: 悲叹之种
 Grief marbles: 悲叹弹珠

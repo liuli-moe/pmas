@@ -8,7 +8,8 @@
     "lint": "vite-node replace.ts -t en && markdownlint -f books/en-US/*.md",
     "build-docs": "mark-magic --task docs",
     "deploy": "gh-pages -d ./dist/docs --dotfiles",
-    "dev": "pnpm build-docs && live-server dist/docs --no-browser"
+    "dev": "vitepress dev books/zh-CN",
+    "preview": "pnpm build-docs && live-server dist/docs --no-browser"
   },
   "devDependencies": {
     "@ffflorian/jszip-cli": "^3.6.2",
@@ -23,6 +24,8 @@
     "markdownlint-cli": "^0.39.0",
     "typescript": "^5.4.2",
     "vite-node": "^1.4.0",
+    "vitepress": "^1.0.2",
+    "vitepress-sidebar": "^1.22.0",
     "zx": "^7.2.3"
   }
 }
