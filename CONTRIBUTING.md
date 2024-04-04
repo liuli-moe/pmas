@@ -62,7 +62,7 @@ Kagome Ayaka: 加贺目绫香
 Akiyama Atsuko: 秋山敦子
 Koizumi Sasami: 小泉砂美
 Nishimura Moe: 西村萌
-Ramiel: 蓝井
+Ramiel: 拉米尔
 Kuvira: 库维拉
 Ueda Noa: 上田诺亚
 Fukui: 福井
@@ -198,3 +198,7 @@ Kasamino: 风见野市
 | 原文    | 翻译   |
 | ------- | ------ |
 | donburi | 盖浇饭 |
+
+### 问题
+
+- [ ] `Unit 00` 是什么？
