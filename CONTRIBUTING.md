@@ -8,7 +8,7 @@
 | ----------- | ---------- |
 | 原作        | 845        |
 | GPT 初翻    | 262        |
-| 校对&润色   | 56,200~262 |
+| 校对&润色   | 56,200~270 |
 | 发布到 b 站 | 55         |
 
 ## prompt
@@ -73,11 +73,6 @@ Grief marbles: 悲叹弹珠
 Grief: 悲伤
 Soul Gem: 灵魂宝石
 witch: 魔女
-hunt: 狩猎
-Barrier: 结界
-Labyrinth: 迷宫
-Mitakihara: 见泷原市
-Kasamino: 风见野市
 
 ## 格式约定
 

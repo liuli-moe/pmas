@@ -68,6 +68,7 @@ const chinese: [string | RegExp, string][] = [
   ['圣瓦尔普吉斯之夜', '魔女之夜'],
   ['瓦尔普吉斯之夜', '魔女之夜'],
   ['美滨中学', '见泷原中学'],
+  ['见泽原中学', '见泷原中学'],
   ['泽诺的悖论', '芝诺悖论'],
   ['猎魔', '狩猎'],
   ['盒子魔女', '箱之魔女'],
@@ -91,6 +92,7 @@ const chinese: [string | RegExp, string][] = [
   ['Apprehension pt.', '忧虑'],
   [`“We've Got Hostiles” pt.`, '"敌人出现"'],
   [`"We've Got Hostiles" pt.`, '"敌人出现"'],
+  [`Under the Radar pt.`, '潜伏行动'],
   // ['Sabrina', '萨布丽娜'],
 ]
 

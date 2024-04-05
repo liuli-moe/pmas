@@ -8,6 +8,9 @@ devDependencies:
   '@ffflorian/jszip-cli':
     specifier: ^3.6.2
     version: 3.6.2(typescript@5.4.2)
+  '@hackmd/markdown-it-task-lists':
+    specifier: ^2.1.4
+    version: link:../markdown-it-task-lists
   '@mark-magic/cli':
     specifier: ^0.12.0
     version: 0.12.0

@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@ffflorian/jszip-cli": "^3.6.2",
+    "@hackmd/markdown-it-task-lists": "^2.1.4",
     "@mark-magic/cli": "^0.12.0",
     "@mark-magic/plugin-ao3": "^0.12.6",
     "@mark-magic/plugin-docs": "^0.12.2",
