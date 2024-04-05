@@ -7,8 +7,8 @@
 | 项目        | 进度       |
 | ----------- | ---------- |
 | 原作        | 845        |
-| GPT 初翻    | 244        |
-| 校对&润色   | 56,200~240 |
+| GPT 初翻    | 262        |
+| 校对&润色   | 56,200~251 |
 | 发布到 b 站 | 55         |
 
 ## prompt
@@ -61,6 +61,7 @@ Ueda Miyako: 上田美夜子
 Kagome Ayaka: 加贺目绫香
 Akiyama Atsuko: 秋山敦子
 Koizumi Sasami: 小泉砂美
+Izumi: 和泉
 Nishimura Moe: 西村萌
 Ramiel: 拉米尔
 Kuvira: 库维拉
