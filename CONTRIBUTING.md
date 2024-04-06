@@ -138,6 +138,7 @@ witch: 魔女
 | Kywjibo Kyousuke | 上条恭介   |
 | Kenji            | 健二       |
 | Miho             | 美穗       |
+| Chie             | 千枝       |
 
 ### 地名
 
@@ -153,18 +154,22 @@ witch: 魔女
 
 ### 魔女
 
-| 原文                      | 翻译              | 说明       |
-| ------------------------- | ----------------- | ---------- |
-| Walpurgisnacht            | 魔女之夜          |
-| stage-constructing witch  | 舞台裝置的魔女    |
-| Candeloro                 | 坎德罗罗          |
-| Gertrud                   | 格特鲁德          |
-| Aurora                    | 奥罗拉            | 原作不存在 |
-| box Witch                 | 箱之魔女          |
-| Witch of Darkness/Suleika | 黑暗的魔女/苏莱卡 |
-| Hildegard                 | 希尔德加德        |
-| Hildegarde                | 希尔德加德        |
-| Gwen                      | 格温              |
+| 原文                      | 翻译                    |
+| ------------------------- | ----------------------- |
+| Walpurgisnacht            | 魔女之夜                |
+| stage-constructing witch  | 舞台裝置的魔女          |
+| Candeloro                 | 坎德罗罗                |
+| Gertrud                   | 格特鲁德                |
+| Aurora                    | 奥罗拉                  |
+| box Witch                 | 箱之魔女                |
+| H.N. Elly                 | 箱之魔女                |
+| Witch of Darkness/Suleika | 黑暗的魔女/苏莱卡       |
+| Hildegard                 | 希尔德加德              |
+| Hildegarde                | 希尔德加德              |
+| Gwen                      | 格温                    |
+| Irene                     | 艾琳                    |
+| Elsa Maria                | 影之魔女/埃尔萨・玛丽亚 |
+| Dedolere                  | 德多雷(萨布丽娜的魔女)  |
 
 ### 专有名词
 
