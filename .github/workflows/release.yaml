@@ -29,9 +29,9 @@ jobs:
       - name: Build
         run: pnpm mark-magic -t 'docs,epub'
       - name: Test
-        run: ls dist/books/
+        run: ls dist/epub/
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            dist/books/*.epub
+            dist/epub/*.epub
