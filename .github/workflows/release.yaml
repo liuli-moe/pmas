@@ -24,6 +24,8 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
+      - name: Install dependencies
+        run: pnpm i
       - name: Build
         run: pnpm mark-magic -t 'docs,epub'
       - name: Test
