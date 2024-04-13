@@ -73,6 +73,8 @@ Grief marbles: 悲叹弹珠
 Grief: 悲伤
 Soul Gem: 灵魂宝石
 witch: 魔女
+Mitakihara: 见泷原市
+Asunaro: 翌桧市
 
 ## 格式约定
 
@@ -151,6 +153,7 @@ witch: 魔女
 | Shirome                     | 私立白羽女校   |
 | Mitakihara General Hospital | 见泷原综合医院 |
 | Kasamino                    | 风见野市       |
+| Asunaro                     | 翌桧市         |
 
 ### 魔女
 

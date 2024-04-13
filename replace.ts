@@ -58,7 +58,9 @@ const chinese: [string | RegExp, string][] = [
   ['美滨市', '见泷原市'],
   ['见滨', '见泷原'],
   ['见泽原市', '见泷原市'],
+  ['见滝原市', '见泷原市'],
   ['笠美野', '风见野市'],
+  ['笠见野', '风见野市'],
   ['京介', '恭介'],
   ['真纱美', '正美'],
   ['奥里可', '织莉子'],
@@ -92,7 +94,11 @@ const chinese: [string | RegExp, string][] = [
   ['Apprehension pt.', '忧虑'],
   [`“We've Got Hostiles” pt.`, '"敌人出现"'],
   [`"We've Got Hostiles" pt.`, '"敌人出现"'],
-  [`Under the Radar pt.`, '潜伏行动'],
+  ['Under the Radar pt.', '潜伏行动'],
+  ['Interloper pt.', '不速之客'],
+  ['库薇拉', '库维拉'],
+  ['蕾米尔', '拉米尔'],
+  ['Write-in', '自由发挥'],
   // ['Sabrina', '萨布丽娜'],
 ]
 

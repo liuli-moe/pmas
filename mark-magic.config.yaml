@@ -24,7 +24,7 @@ tasks:
         lang: zh-CN
         sitemap:
           hostname: https://pmas.liuli.moe
-        name: 魔法少女悲伤系统
+        name: 魔法少女小圆悲伤系统
         public: ./static
         nav:
           - text: GitHub
@@ -46,9 +46,9 @@ tasks:
     output:
       name: '@mark-magic/plugin-epub'
       config:
-        path: ./dist/epub/魔法少女悲伤系统.epub
+        path: ./dist/epub/魔法少女小圆悲伤系统.epub
         id: pmas
-        title: 魔法少女悲伤系统
+        title: 魔法少女小圆悲伤系统
         creator: Firnagzen
         publisher: rxliuli
         language: zh-CN
