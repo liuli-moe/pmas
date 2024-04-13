@@ -8,7 +8,7 @@
 | ----------- | ---------- |
 | 原作        | 845        |
 | GPT 初翻    | 262        |
-| 校对&润色   | 56,200~270 |
+| 校对&润色   | 56,200~281 |
 | 发布到 b 站 | 55         |
 
 ## prompt
@@ -86,6 +86,7 @@ Asunaro: 翌桧市
 - [魔法纪录中文 Wiki](https://magireco.moe)
 - [萌娘百科](https://zh.moegirl.org.cn)
 - [pmas 非官方 Wiki](https://www.adfligosystema.com)
+- [魔法少女小圆 角色列表](https://zh.wikipedia.org/wiki/魔法少女小圓角色列表)
 
 ## 译名对照表
 
@@ -137,10 +138,15 @@ Asunaro: 翌桧市
 | Akiyama Atsuko   | 秋山敦子   |
 | Koizumi Sasami   | 小泉砂美   |
 | Nishimura Moe    | 西村萌     |
+| Soujo Ayase      | 双树绫濑   |
+| Soujo Luca       | 双树流香   |
+| Kazusa Michiru   | 和纱美千瑠 |
+| Kazumi           | 和美       |
 | Kywjibo Kyousuke | 上条恭介   |
 | Kenji            | 健二       |
 | Miho             | 美穗       |
 | Chie             | 千枝       |
+| Isoda            | 矶田       |
 
 ### 地名
 
@@ -193,9 +199,10 @@ Asunaro: 翌桧市
 
 ### 组织
 
-| 原文      | 翻译   |
-| --------- | ------ |
-| Uni group | 优妮组 |
+| 原文            | 翻译     |
+| --------------- | -------- |
+| Uni group       | 优妮组   |
+| Pleiades Saints | 昴宿圣团 |
 
 ### 日语罗马片假名词
 
@@ -207,3 +214,4 @@ Asunaro: 翌桧市
 
 - [x] `Unit 00` 是什么？-- EVA 的零号机，用来比喻魔法少女制造的金属构造物
 - [x] Kato Setsuko: 加藤雪子 和 Sato Kimiko: 佐藤公子 似乎有些混乱，哪个是明子的 CP？似乎有时候会错误的翻译 -- 是 claude 的问题
+- [ ] 替换 沙耶加 为 沙耶香
