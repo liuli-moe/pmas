@@ -1,0 +1,27 @@
+name: Main
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build
+        run: npm i -g pnpm && pnpm i && pnpm mark-magic -t docs,epub
+      - name: Test
+        run: ls dist/books/
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/books/*.epub
