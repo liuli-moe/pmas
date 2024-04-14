@@ -150,12 +150,12 @@ Asunaro: 翌桧市
 
 ### 地名
 
-| 原文                        | 翻译           | 说明                                                         |
-| --------------------------- | -------------- | ------------------------------------------------------------ |
+| 原文                        | 翻译           |
+| --------------------------- | -------------- |
 | Mitakihara                  | 见泷原市       |
 | Mitakihara Middle School    | 见泷原中学     |
 | Mitakihara School           | 见泷原中学     |
-| Shirome Academy             | 私立白羽女校   | <https://wiki.puella-magi.net/Schools#Shirome_Middle_School> |
+| Shirome Academy             | 私立白羽女校   |
 | Shirome                     | 私立白羽女校   |
 | Mitakihara General Hospital | 见泷原综合医院 |
 | Kasamino                    | 风见野市       |
@@ -177,13 +177,14 @@ Asunaro: 翌桧市
 | Hildegarde                | 希尔德加德              |
 | Gwen                      | 格温                    |
 | Irene                     | 艾琳                    |
+| Jane                      | 简                      |
 | Elsa Maria                | 影之魔女/埃尔萨・玛丽亚 |
 | Dedolere                  | 德多雷(萨布丽娜的魔女)  |
 
 ### 专有名词
 
-| 原文                  | 翻译       | 说明 |
-| --------------------- | ---------- | ---- |
+| 原文                  | 翻译       |
+| --------------------- | ---------- |
 | witch                 | 魔女       |
 | Grief Seed            | 悲叹之种   |
 | Grief marbles         | 悲叹弹珠   |
@@ -195,7 +196,8 @@ Asunaro: 翌桧市
 | Labyrinth             | 迷宫       |
 | Incubators            | 孵化者     |
 | hammerspace           | 锤子空间   |
-| technology controller | 科技控制者 | 待定 |
+| technology controller | 科技控制者 |
+| lichbomb              | 女巫炸弹   |
 
 ### 组织
 
@@ -214,4 +216,6 @@ Asunaro: 翌桧市
 
 - [x] `Unit 00` 是什么？-- EVA 的零号机，用来比喻魔法少女制造的金属构造物
 - [x] Kato Setsuko: 加藤雪子 和 Sato Kimiko: 佐藤公子 似乎有些混乱，哪个是明子的 CP？似乎有时候会错误的翻译 -- 是 claude 的问题
-- [ ] 替换 沙耶加 为 沙耶香
+- [ ] 应该全局替换 沙耶加 为 沙耶香
+- [ ] 之前错误将 - 转换为 ——，应该转换为单个 —
+- [ ] #294 的 Honeyblob 是什么？
