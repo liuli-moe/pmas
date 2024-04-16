@@ -16,9 +16,9 @@
 为了确保文本的准确性和一致性，请遵循下述翻译对照表来处理人名和专有名词。特别注意，当提及的人名只有名字而没有姓氏时，应仅翻译名字的一部分，以避免过度翻译。例如，如果文本中只出现“Madoka”，则应翻译为“小圆”，而非“鹿目圆”。同理，“Homura”应翻译为“焰”，“Oriko”翻译为“织莉子”，“Mami”翻译为“麻美”，“Sabrina”翻译为“萨布丽娜”。请严格遵循以下对照表进行翻译：
 
 Kaname Madoka: 鹿目圆
-Miki Sayaka: 美树沙耶加
+Miki Sayaka: 美树沙耶香
 Madoka: 小圆
-Sayaka: 沙耶加
+Sayaka: 沙耶香
 Sabrina: 萨布丽娜
 Tomoe Mami: 巴麻美
 Mami: 麻美
@@ -31,42 +31,14 @@ Kirika: 纪里香
 Kyuubey: 丘比
 Shizuki Hitomi: 志筑仁美
 Momoe Nagisa: 百江渚
-Charlotte: 夏洛特
-Momoe Shin: 百江申
 Kyouko Sakura: 佐仓杏子
 Chitose Yuma: 千岁由麻
 Gaikotsu Masami: 外工正美
-Masami: 正美
 Wakahisa Hiroko: 若狭弘子
 Hamasaki Akiko: 浜崎明子
 Tachibana Sakura: 立花小樱
 Mori Rin: 森凛
-Tanaka Tamiko: 田中多美子
-Minami Yumi: 南由美
-Ayano Chika: 绫野智香
-Umeko Yuko: 梅子裕子
-Tsubaki Chouko: 椿蝶子
-Suzuki Haruna: 铃木晴奈
-Suzuki Haru: 铃木晴
-Suzuki Rei: 铃木丽
-Haru Rei: 春丽
-Kuzue: 葛叶
-Tsukada Hoshiko: 塚田星子
-Koizumi Aki: 小泉秋
-Sato Kimiko: 佐藤公子
-Inoue Yuuna: 井上友奈
-Inoue Yuuki: 井上悠纪
-Kato Setsuko: 加藤雪子
-Ueda Miyako: 上田美夜子
-Kagome Ayaka: 加贺目绫香
-Akiyama Atsuko: 秋山敦子
-Koizumi Sasami: 小泉砂美
-Izumi: 和泉
-Nishimura Moe: 西村萌
-Ramiel: 拉米尔
-Kuvira: 库维拉
-Ueda Noa: 上田诺亚
-Fukui: 福井
+Ono Megane: 小野梅甘娜
 Kyuubey: 丘比
 Grief Seed: 悲叹之种
 Grief marbles: 悲叹弹珠
@@ -95,9 +67,9 @@ Asunaro: 翌桧市
 | 原文             | 翻译       |
 | ---------------- | ---------- |
 | Kaname Madoka    | 鹿目圆     |
-| Miki Sayaka      | 美树沙耶加 |
+| Miki Sayaka      | 美树沙耶香 |
 | Madoka           | 小圆       |
-| Sayaka           | 沙耶加     |
+| Sayaka           | 沙耶香     |
 | Sabrina          | 萨布丽娜   |
 | Tomoe Mami       | 巴麻美     |
 | Mami             | 麻美       |
@@ -142,6 +114,7 @@ Asunaro: 翌桧市
 | Soujo Luca       | 双树流香   |
 | Kazusa Michiru   | 和纱美千瑠 |
 | Kazumi           | 和美       |
+| Ono Megane       | 小野梅甘娜 |
 | Kywjibo Kyousuke | 上条恭介   |
 | Kenji            | 健二       |
 | Miho             | 美穗       |
@@ -216,6 +189,6 @@ Asunaro: 翌桧市
 
 - [x] `Unit 00` 是什么？-- EVA 的零号机，用来比喻魔法少女制造的金属构造物
 - [x] Kato Setsuko: 加藤雪子 和 Sato Kimiko: 佐藤公子 似乎有些混乱，哪个是明子的 CP？似乎有时候会错误的翻译 -- 是 claude 的问题
-- [ ] 应该全局替换 沙耶加 为 沙耶香
+- [x] 应该全局替换 沙耶加 为 沙耶香
 - [ ] 之前错误将 - 转换为 ——，应该转换为单个 —
 - [ ] #294 的 Honeyblob 是什么？

@@ -110,6 +110,9 @@ const chinese: [string | RegExp, string][] = [
   ['Write-in', '自由发挥'],
   ['Spoiler', '剧透'],
   ['Aurora', '奥罗拉'],
+  ['预言者', '预言家'],
+  ['小野眼镜', '小野梅甘娜'],
+  ['沙耶加', '沙耶香'],
   // ['Sabrina', '萨布丽娜'],
 ]
 
