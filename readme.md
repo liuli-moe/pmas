@@ -10,3 +10,18 @@
 ![cover](./books/zh-CN/assets/cover.jpg)
 
 Logo 由 [defenestrator](https://forums.sufficientvelocity.com/members/defenestrator.889/) 设计。
+
+## 分卷
+
+- 第一卷
+  - 意料之外的后果
+  - 纠缠
+  - 直接干预
+  - 表层张力
+  - 不当的警觉
+  - 忧虑
+  - “敌人出现”
+- 第二卷
+  - 潜伏行动
+  - 不速之客
+  - 我们的恩人

@@ -103,6 +103,7 @@ const chinese: [string | RegExp, string][] = [
   [`"We've Got Hostiles" pt.`, '"敌人出现"'],
   ['Under the Radar pt.', '潜伏行动'],
   ['Interloper pt.', '不速之客'],
+  ['Our Benefactor pt.', '我们的恩人'],
   ['库薇拉', '库维拉'],
   ['蕾米尔', '拉米尔'],
   ['昴星团', '昴宿圣团'],
@@ -113,6 +114,8 @@ const chinese: [string | RegExp, string][] = [
   ['预言者', '预言家'],
   ['小野眼镜', '小野梅甘娜'],
   ['沙耶加', '沙耶香'],
+  ['沃珀尔吉斯之夜', '魔女之夜'],
+  ['沃普尔吉斯之夜', '魔女之夜'],
   // ['Sabrina', '萨布丽娜'],
 ]
 

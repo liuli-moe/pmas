@@ -192,3 +192,4 @@ Asunaro: 翌桧市
 - [x] 应该全局替换 沙耶加 为 沙耶香
 - [ ] 之前错误将 - 转换为 ——，应该转换为单个 —
 - [ ] #294 的 Honeyblob 是什么？
+- [ ] MECHA GUREN ZILLA LAGANN 不确定要怎么翻
