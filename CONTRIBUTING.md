@@ -8,7 +8,7 @@
 | ----------- | ---------- |
 | 原作        | 845        |
 | GPT 初翻    | 262        |
-| 校对&润色   | 56,200~350 |
+| 校对&润色   | 56,200~386 |
 | 发布到 b 站 | 55         |
 
 ## prompt
@@ -82,7 +82,6 @@ Asunaro: 翌桧市
 | Kyuubey          | 丘比       |
 | Shizuki Hitomi   | 志筑仁美   |
 | Momoe Nagisa     | 百江渚     |
-| Charlotte        | 夏洛特     |
 | Momoe Shin       | 百江申     |
 | Kyouko Sakura    | 佐仓杏子   |
 | Chitose Yuma     | 千岁由麻   |
@@ -115,6 +114,7 @@ Asunaro: 翌桧市
 | Kazusa Michiru   | 和纱美千瑠 |
 | Kazumi           | 和美       |
 | Ono Megane       | 小野梅甘娜 |
+| Sasa Yuuki       | 佐佐幸纪   |
 | Kywjibo Kyousuke | 上条恭介   |
 | Kenji            | 健二       |
 | Miho             | 美穗       |
@@ -140,6 +140,7 @@ Asunaro: 翌桧市
 | ------------------------- | ----------------------- |
 | Walpurgisnacht            | 魔女之夜                |
 | stage-constructing witch  | 舞台裝置的魔女          |
+| Charlotte                 | 夏洛特                  |
 | Candeloro                 | 坎德罗罗                |
 | Gertrud                   | 格特鲁德                |
 | Aurora                    | 奥罗拉                  |
@@ -195,3 +196,10 @@ Asunaro: 翌桧市
 - [ ] #294 的 Honeyblob 是什么？
 - [ ] #326 MECHA GUREN ZILLA LAGANN 不确定要怎么翻
 - [ ] #335 Miss Grum 在说什么？
+- [ ] #356 确认是 埃尔萨・玛丽亚 还是 艾尔莎 · 玛丽亚
+- [ ] #358 fire escape
+- [ ] #370 确认 Sasa Yuuki 的官方译名
+- [ ] #376 `小野小姐竞选总统荣誉提名 刻薄婊子 2015！` 这里很奇怪
+- [ ] #382 `呃。还不如管自己叫戴表的假鸡巴。` 这里很奇怪
+- [ ] #385 确定 Andrea 的译名
+- [ ] #386 `麻美点点头。“我还有功课要做，”她说。` 的翻译很奇怪
