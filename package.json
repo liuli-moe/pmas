@@ -13,22 +13,22 @@
     "preview": "pnpm build-docs && live-server dist/docs --no-browser"
   },
   "devDependencies": {
-    "@ffflorian/jszip-cli": "^3.6.2",
+    "@ffflorian/jszip-cli": "^3.6.3",
     "@hackmd/markdown-it-task-lists": "^2.1.4",
-    "@mark-magic/cli": "^0.12.0",
+    "@mark-magic/cli": "^0.14.1",
     "@mark-magic/plugin-ao3": "^0.13.0",
-    "@mark-magic/plugin-docs": "^0.13.0",
-    "@mark-magic/plugin-doctran": "^0.12.5",
+    "@mark-magic/plugin-docs": "^0.14.0",
+    "@mark-magic/plugin-doctran": "^0.14.0",
     "@mark-magic/plugin-epub": "^0.13.0",
-    "@mark-magic/plugin-local": "^0.12.0",
+    "@mark-magic/plugin-local": "^0.14.0",
     "gh-pages": "^6.1.1",
     "markdown-it-cjk-space-clean": "^0.2.0",
     "markdownlint": "^0.34.0",
-    "markdownlint-cli": "^0.39.0",
+    "markdownlint-cli": "^0.40.0",
     "typescript": "^5.4.5",
-    "vite-node": "^1.5.2",
+    "vite-node": "^1.6.0",
     "vitepress": "^1.1.4",
-    "vitepress-sidebar": "^1.22.0",
-    "zx": "^8.0.2"
+    "vitepress-sidebar": "^1.23.2",
+    "zx": "^8.1.0"
   }
 }
