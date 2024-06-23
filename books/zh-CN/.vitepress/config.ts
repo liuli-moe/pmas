@@ -12,7 +12,7 @@ export default defineConfig({
   },
   markdown: {
     config(md) {
-      md.use(taskLists).use(cjk())
+      md.use(taskLists).use(cjk() as any)
     },
   },
 })
