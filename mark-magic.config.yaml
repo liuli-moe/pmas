@@ -1,5 +1,3 @@
-# yaml-language-server: $schema=./node_modules/@mark-magic/cli/dist/config.schema.json
-
 tasks:
   - name: fetch
     input:
@@ -38,6 +36,9 @@ tasks:
               - text: Bilibili
                 link: https://www.bilibili.com/read/readlist/rl794874
         logo: /logo.jpg
+        twitter:
+          site: 'rxliuli'
+          image: 'https://pmas.liuli.moe/cover.jpg'
   - name: epub
     input:
       name: '@mark-magic/plugin-local'
