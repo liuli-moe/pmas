@@ -22,7 +22,7 @@ tasks:
         lang: zh-CN
         sitemap:
           hostname: https://pmas.liuli.moe
-        name: 魔法少女小圆悲伤系统
+        name: 魔法少女小圆 系统崩坏
         public: ./static
         nav:
           - text: GitHub
@@ -49,7 +49,7 @@ tasks:
       config:
         path: ./dist/epub/Puella Magi Adfligo Systema.epub
         id: pmas
-        title: 魔法少女小圆悲伤系统
+        title: 魔法少女小圆 系统崩坏
         creator: Firnagzen
         publisher: rxliuli
         language: zh-CN

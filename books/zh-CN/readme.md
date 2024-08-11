@@ -1,4 +1,4 @@
-# 魔法少女小圆悲伤系统
+# 魔法少女小圆 系统崩坏
 
 > 原作 [Puella Magi Adfligo Systema](https://forums.sufficientvelocity.com/threads/2538/)，作者 [Firnagzen](https://forums.sufficientvelocity.com/members/firnagzen.386/)
 > 翻译使用 LLM 初翻 + 人工校对，已经联系到原作者并取得许可，任何翻译问题请到 [GitHub](https://github.com/liuli-moe/pmas) [反馈 issue](https://github.com/liuli-moe/pmas/issues) 或直接[提 pr](https://github.com/liuli-moe/pmas/pulls)。

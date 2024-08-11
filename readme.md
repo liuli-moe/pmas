@@ -1,4 +1,4 @@
-# 魔法少女小圆悲伤系统
+# 魔法少女小圆 系统崩坏
 
 > 原作 [Puella Magi Adfligo Systema](https://forums.sufficientvelocity.com/threads/2538/)，作者 [Firnagzen](https://forums.sufficientvelocity.com/members/firnagzen.386/)
 > 这是一个魔法少女小圆的同人小说，是继 [魔法少女小圆 飞向星空](https://tts.liuli.moe/) 之后吾辈最喜欢的魔法少女小圆同人，原作已经超过 800 章。讲述了一个女孩许下了控制**悲伤**的愿望，她会如何开始改变魔法少女们悲惨的命运呢？
