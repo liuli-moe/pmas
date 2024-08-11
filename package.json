@@ -6,6 +6,7 @@
   "scripts": {
     "fetch": "mark-magic --task fetch",
     "lint": "vite-node replace.ts -t en && markdownlint -f books/en-US/*.md",
+    "build": "pnpm build-docs && pnpm build-epub",
     "build-docs": "mark-magic --task docs",
     "build-epub": "mark-magic --task epub",
     "deploy": "gh-pages -d ./dist/docs --dotfiles",
