@@ -154,6 +154,7 @@ Asunaro: 翌桧市
 | Jane                      | 简                      |
 | Elsa Maria                | 影之魔女/埃尔萨・玛丽亚 |
 | Dedolere                  | 德多雷(萨布丽娜的魔女)  |
+| Andrea                    | 安德烈亚                |
 
 ### 专有名词
 
@@ -175,6 +176,8 @@ Asunaro: 翌桧市
 | hammerspace           | 锤子空间   |
 | technology controller | 科技控制者 |
 | lichbomb              | 女巫炸弹   |
+| Wraiths               | 幽灵       |
+| clear Seed            | 净化种子   |
 
 ### 组织
 
@@ -182,6 +185,8 @@ Asunaro: 翌桧市
 | --------------- | -------- |
 | Uni group       | 优妮组   |
 | Pleiades Saints | 昴宿圣团 |
+|                 | 仙台组   |
+|                 | 大学组   |
 
 ### 日语罗马片假名词
 
