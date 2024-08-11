@@ -47,7 +47,7 @@ tasks:
     output:
       name: '@mark-magic/plugin-epub'
       config:
-        path: ./dist/epub/魔法少女小圆悲伤系统.epub
+        path: ./dist/epub/Puella Magi Adfligo Systema.epub
         id: pmas
         title: 魔法少女小圆悲伤系统
         creator: Firnagzen
