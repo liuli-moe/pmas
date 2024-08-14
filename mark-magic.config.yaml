@@ -39,6 +39,7 @@ tasks:
         twitter:
           site: 'rxliuli'
           image: 'https://pmas.liuli.moe/cover.jpg'
+        gtag: G-W9DLT48Y5K
   - name: epub
     input:
       name: '@mark-magic/plugin-local'
