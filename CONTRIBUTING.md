@@ -8,7 +8,7 @@
 | ----------- | ------------ |
 | 原作        | 845          |
 | GPT 初翻    | 262          |
-| 校对&润色   | 1~56,200~400 |
+| 校对&润色   | 1~56,200~420 |
 | 发布到 b 站 | 55           |
 
 ## prompt
@@ -30,15 +30,14 @@ Kure Kirika: 吴纪里香
 Kirika: 纪里香
 Kyuubey: 丘比
 Shizuki Hitomi: 志筑仁美
-Momoe Nagisa: 百江渚
 Kyouko Sakura: 佐仓杏子
 Chitose Yuma: 千岁由麻
 Gaikotsu Masami: 外工正美
 Wakahisa Hiroko: 若狭弘子
+Nadia Bennouna: 娜迪亚·贝努纳
 Hamasaki Akiko: 浜崎明子
 Tachibana Sakura: 立花小樱
 Mori Rin: 森凛
-Ono Megane: 小野梅甘娜
 Kyuubey: 丘比
 Grief Seed: 悲叹之种
 Grief marbles: 悲叹弹珠
@@ -64,62 +63,64 @@ Asunaro: 翌桧市
 
 ### 人名
 
-| 原文             | 翻译       |
-| ---------------- | ---------- |
-| Kaname Madoka    | 鹿目圆     |
-| Miki Sayaka      | 美树沙耶香 |
-| Madoka           | 小圆       |
-| Sayaka           | 沙耶香     |
-| Sabrina          | 萨布丽娜   |
-| Tomoe Mami       | 巴麻美     |
-| Mami             | 麻美       |
-| Akemi Homura     | 晓美焰     |
-| Homura           | 焰         |
-| Mikuni Oriko     | 美国织莉子 |
-| Oriko            | 织莉子     |
-| Kure Kirika      | 吴纪里香   |
-| Kirika           | 纪里香     |
-| Kyuubey          | 丘比       |
-| Shizuki Hitomi   | 志筑仁美   |
-| Momoe Nagisa     | 百江渚     |
-| Momoe Shin       | 百江申     |
-| Kyouko Sakura    | 佐仓杏子   |
-| Chitose Yuma     | 千岁由麻   |
-| Gaikotsu Masami  | 外工正美   |
-| Masami           | 正美       |
-| Wakahisa Hiroko  | 若狭弘子   |
-| Hamasaki Akiko   | 浜崎明子   |
-| Tachibana Sakura | 立花小樱   |
-| Mori Rin         | 森凛       |
-| Tanaka Tamiko    | 田中多美子 |
-| Minami Yumi      | 南由美     |
-| Ayano Chika      | 绫野智香   |
-| Umeko Yuko       | 梅子裕子   |
-| Tsubaki Chouko   | 椿蝶子     |
-| Suzuki Rei       | 铃木丽     |
-| Suzuki Haruna    | 铃木晴奈   |
-| Tsukada Hoshiko  | 塚田星子   |
-| Koizumi Aki      | 小泉秋     |
-| Sato Kimiko      | 佐藤公子   |
-| Inoue Yuuna      | 井上友奈   |
-| Inoue Yuuki      | 井上悠纪   |
-| Kato Setsuko     | 加藤雪子   |
-| Ueda Miyako      | 上田美夜子 |
-| Kagome Ayaka     | 加贺目绫香 |
-| Akiyama Atsuko   | 秋山敦子   |
-| Koizumi Sasami   | 小泉砂美   |
-| Nishimura Moe    | 西村萌     |
-| Soujo Ayase      | 双树绫濑   |
-| Soujo Luca       | 双树流香   |
-| Kazusa Michiru   | 和纱美千瑠 |
-| Kazumi           | 和美       |
-| Ono Megane       | 小野梅甘娜 |
-| Sasa Yuuki       | 佐佐幸纪   |
-| Kywjibo Kyousuke | 上条恭介   |
-| Kenji            | 健二       |
-| Miho             | 美穗       |
-| Chie             | 千枝       |
-| Isoda            | 矶田       |
+| 原文             | 翻译          |
+| ---------------- | ------------- |
+| Kaname Madoka    | 鹿目圆        |
+| Miki Sayaka      | 美树沙耶香    |
+| Madoka           | 小圆          |
+| Sayaka           | 沙耶香        |
+| Sabrina          | 萨布丽娜      |
+| Tomoe Mami       | 巴麻美        |
+| Mami             | 麻美          |
+| Akemi Homura     | 晓美焰        |
+| Homura           | 焰            |
+| Mikuni Oriko     | 美国织莉子    |
+| Oriko            | 织莉子        |
+| Kure Kirika      | 吴纪里香      |
+| Kirika           | 纪里香        |
+| Kyuubey          | 丘比          |
+| Shizuki Hitomi   | 志筑仁美      |
+| Momoe Nagisa     | 百江渚        |
+| Momoe Shin       | 百江申        |
+| Kyouko Sakura    | 佐仓杏子      |
+| Chitose Yuma     | 千岁由麻      |
+| Gaikotsu Masami  | 外工正美      |
+| Masami           | 正美          |
+| Wakahisa Hiroko  | 若狭弘子      |
+| Hamasaki Akiko   | 浜崎明子      |
+| Tachibana Sakura | 立花小樱      |
+| Mori Rin         | 森凛          |
+| Tanaka Tamiko    | 田中多美子    |
+| Minami Yumi      | 南由美        |
+| Ayano Chika      | 绫野智香      |
+| Umeko Yuko       | 梅子裕子      |
+| Tsubaki Chouko   | 椿蝶子        |
+| Suzuki Rei       | 铃木丽        |
+| Suzuki Haruna    | 铃木晴奈      |
+| Tsukada Hoshiko  | 塚田星子      |
+| Koizumi Aki      | 小泉秋        |
+| Sato Kimiko      | 佐藤公子      |
+| Inoue Yuuna      | 井上友奈      |
+| Inoue Yuuki      | 井上悠纪      |
+| Kato Setsuko     | 加藤雪子      |
+| Ueda Miyako      | 上田美夜子    |
+| Kagome Ayaka     | 加贺目绫香    |
+| Akiyama Atsuko   | 秋山敦子      |
+| Koizumi Sasami   | 小泉砂美      |
+| Nishimura Moe    | 西村萌        |
+| Soujo Ayase      | 双树绫濑      |
+| Soujo Luca       | 双树流香      |
+| Kazusa Michiru   | 和纱美千瑠    |
+| Kazumi           | 和美          |
+| Ono Megane       | 小野梅甘娜    |
+| Sasa Yuuki       | 优木沙沙      |
+| Kywjibo Kyousuke | 上条恭介      |
+| Kenji            | 健二          |
+| Miho             | 美穗          |
+| Chie             | 千枝          |
+| Isoda            | 矶田          |
+| Saotome Kazuko   | 早乙女和子    |
+| Nadia Bennouna   | 娜迪亚·贝努纳 |
 
 ### 地名
 
@@ -152,32 +153,36 @@ Asunaro: 翌桧市
 | Gwen                      | 格温                    |
 | Irene                     | 艾琳                    |
 | Jane                      | 简                      |
-| Elsa Maria                | 影之魔女/埃尔萨・玛丽亚 |
+| Elsa Maria                | 影之魔女/艾尔莎・玛丽亚 |
 | Dedolere                  | 德多雷(萨布丽娜的魔女)  |
 | Andrea                    | 安德烈亚                |
+| Pythia                    | 皮媞亚                  |
 
 ### 专有名词
 
-| 原文                  | 翻译       |
-| --------------------- | ---------- |
-| witch                 | 魔女       |
-| Grief Seed            | 悲叹之种   |
-| Grief marbles         | 悲叹弹珠   |
-| Grief cube            | 悲叹魔方   |
-| Soul Gem              | 灵魂宝石   |
-| Grief                 | 悲伤       |
-| Meguca                |            |
-| Puella magi           |            |
-| Puerla magi           |            |
-| hunt                  | 狩猎       |
-| Barrier               | 结界       |
-| Labyrinth             | 迷宫       |
-| Incubators            | 孵化者     |
-| hammerspace           | 锤子空间   |
-| technology controller | 科技控制者 |
-| lichbomb              | 女巫炸弹   |
-| Wraiths               | 幽灵       |
-| clear Seed            | 净化种子   |
+| 原文                      | 翻译           |
+| ------------------------- | -------------- |
+| witch                     | 魔女           |
+| Grief Seed                | 悲叹之种       |
+| Grief marbles             | 悲叹弹珠       |
+| Grief cube                | 悲叹魔方       |
+| Soul Gem                  | 灵魂宝石       |
+| Grief                     | 悲伤           |
+| Meguca                    |                |
+| Puella magi               |                |
+| Puerla magi               |                |
+| hunt                      | 狩猎           |
+| Barrier                   | 结界           |
+| Labyrinth                 | 迷宫           |
+| Incubators                | 孵化者         |
+| hammerspace               | 锤子空间       |
+| technology controller     | 科技控制者     |
+| lichbomb                  | 女巫炸弹       |
+| Wraiths                   | 幽灵           |
+| clear Seed                | 净化种子       |
+| MECHA GURREN ZILLA LAGAAN | 机械红莲哥斯拉 |
+| maghrebi                  | 马格里布       |
+| darija                    | 达里贾         |
 
 ### 组织
 
@@ -201,11 +206,11 @@ Asunaro: 翌桧市
 - [x] 应该全局替换 沙耶加 为 沙耶香
 - [ ] 之前错误将 - 转换为 ——，应该转换为单个 —
 - [ ] #294 的 Honeyblob 是什么？
-- [ ] #326 MECHA GUREN ZILLA LAGANN 不确定要怎么翻
+- [x] #326 MECHA GUREN ZILLA LAGANN 不确定要怎么翻 -- 机械红莲哥斯拉
 - [ ] #335 Miss Grum 在说什么？
-- [ ] #356 确认是 埃尔萨・玛丽亚 还是 艾尔莎 · 玛丽亚
+- [x] #356 确认是 埃尔萨・玛丽亚 还是 艾尔莎・玛丽亚 -- 艾尔莎・玛丽亚，ref: <https://magicaquartet.fandom.com/zh/wiki/%E8%89%BE%E7%88%BE%E8%8E%8E%C2%B7%E7%91%AA%E9%BA%97%E4%BA%9E?variant=zh-sg>
 - [ ] #358 fire escape
-- [ ] #370 确认 Sasa Yuuki 的官方译名
+- [x] #370 确认 Sasa Yuuki 的官方译名 -- 优木沙沙
 - [ ] #376 `小野小姐竞选总统荣誉提名 刻薄婊子 2015！` 这里很奇怪
 - [ ] #382 `呃。还不如管自己叫戴表的假鸡巴。` 这里很奇怪
 - [ ] #385 确定 Andrea 的译名
@@ -213,3 +218,4 @@ Asunaro: 翌桧市
 - [ ] #389 `你试图平息内心中猜测、担忧和蜥蜴的混合物。确切地说是有胡子的蜥蜴。头上还顶着树莓。` 的翻译很奇怪
 - [x] #390 开头部分明显不完整
 - [ ] 晚点报告 `她_帮助_过我们` 无法正确渲染但使用 `*` 斜体可以的问题，`她*帮助*过我们`
+- [ ] #429 `Miss Mikuni` 翻译为 `美国小姐` 怪怪的
