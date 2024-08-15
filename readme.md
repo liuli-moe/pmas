@@ -6,8 +6,8 @@
 
 拯救世界还是拯救一个女孩——这真的有差别吗？你或许拥有难以想象的力量，但总有一些事情依旧艰难。
 
-![logo](./books/zh-CN/public/banner.png)
-![cover](./books/zh-CN/public/cover.jpg)
+![logo](./static/banner.png)
+![cover](./static/cover.jpg)
 
 Logo 由 [defenestrator](https://forums.sufficientvelocity.com/members/defenestrator.889/) 设计。
 
