@@ -18,8 +18,8 @@ importers:
         specifier: ^0.14.1
         version: 0.14.1
       '@mark-magic/plugin-ao3':
-        specifier: ^0.13.0
-        version: 0.13.0
+        specifier: ^0.15.1
+        version: 0.15.1
       '@mark-magic/plugin-docs':
         specifier: ^0.15.0
         version: 0.15.0(@algolia/client-search@4.24.0)(@types/node@22.2.0)(markdown-it@14.1.0)(postcss@8.4.41)(search-insights@2.16.2)(typescript@5.5.4)
@@ -793,8 +793,8 @@ packages:
   '@mark-magic/epub@0.3.0':
     resolution: {integrity: sha512-SULBx3fBut53V7Ff1eAZpudQw3fgnc+y86K/RbmNdbIx9CZMMG2UWze9B37uQVU2+dI9+uEusytEYYFlbODdJQ==}
 
-  '@mark-magic/plugin-ao3@0.13.0':
-    resolution: {integrity: sha512-liPGhVQCzGgUJ9NBDNh9KV+bxWu2zJpqoB4a8QD4591E4g6RI26kgrmFXcOB1R88Fyl+fvn/zOrEodJ6b4i0sA==}
+  '@mark-magic/plugin-ao3@0.15.1':
+    resolution: {integrity: sha512-KiIxuPlq/1CciLADmf471RPjsIxQ2zsm0qDbNMHC/COo35yRR/dbYNIshePQj1JZo0kEq+Klr4/UBUReUttePA==}
 
   '@mark-magic/plugin-docs@0.15.0':
     resolution: {integrity: sha512-ek9A72PSkkrTMTfVgCnnIRBCyYSdbkoLsntagh8rlTtmZuTxlvUWXBnQ7mdte7d20f4paWUD/M/EGJsAPiNV0Q==}
@@ -964,11 +964,14 @@ packages:
   '@types/trusted-types@2.0.7':
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
 
-  '@types/unist@2.0.10':
-    resolution: {integrity: sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==}
+  '@types/unist@2.0.11':
+    resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
 
   '@types/unist@3.0.2':
     resolution: {integrity: sha512-dqId9J8K/vGi5Zr7oo212BGii5m3q5Hxlkwy3WpYuKPklmBEvsbMYYyLxAQpSffdLl/gdW0XUpKWFvYmyoWCoQ==}
+
+  '@types/unist@3.0.3':
+    resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
   '@types/uuid@9.0.8':
     resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
@@ -3368,7 +3371,7 @@ snapshots:
       mime-types: 2.1.35
       mustache: 4.2.0
 
-  '@mark-magic/plugin-ao3@0.13.0':
+  '@mark-magic/plugin-ao3@0.15.1':
     dependencies:
       '@liuli-util/async': 3.7.0
       '@liuli-util/markdown-util': 0.9.2
@@ -3704,7 +3707,7 @@ snapshots:
 
   '@types/hast@2.3.10':
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
 
   '@types/hast@3.0.4':
     dependencies:
@@ -3747,9 +3750,11 @@ snapshots:
 
   '@types/trusted-types@2.0.7': {}
 
-  '@types/unist@2.0.10': {}
+  '@types/unist@2.0.11': {}
 
   '@types/unist@3.0.2': {}
+
+  '@types/unist@3.0.3': {}
 
   '@types/uuid@9.0.8': {}
 
@@ -4420,7 +4425,7 @@ snapshots:
   hast-util-from-parse5@7.1.2:
     dependencies:
       '@types/hast': 2.3.10
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       hastscript: 7.2.0
       property-information: 6.5.0
       vfile: 5.3.7
@@ -4527,7 +4532,7 @@ snapshots:
   hast-util-to-text@4.0.2:
     dependencies:
       '@types/hast': 3.0.4
-      '@types/unist': 3.0.2
+      '@types/unist': 3.0.3
       hast-util-is-element: 3.0.0
       unist-util-find-after: 5.0.0
 
@@ -5718,7 +5723,7 @@ snapshots:
 
   unist-util-find-after@5.0.0:
     dependencies:
-      '@types/unist': 3.0.2
+      '@types/unist': 3.0.3
       unist-util-is: 6.0.0
 
   unist-util-inspect@8.1.0:
@@ -5753,7 +5758,7 @@ snapshots:
 
   unist-util-stringify-position@3.0.3:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
 
   unist-util-stringify-position@4.0.0:
     dependencies:
@@ -5778,7 +5783,7 @@ snapshots:
 
   vfile-location@4.1.0:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       vfile: 5.3.7
 
   vfile-location@5.0.3:
@@ -5788,7 +5793,7 @@ snapshots:
 
   vfile-message@3.1.4:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       unist-util-stringify-position: 3.0.3
 
   vfile-message@4.0.2:
@@ -5798,7 +5803,7 @@ snapshots:
 
   vfile@5.3.7:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4

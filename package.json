@@ -9,6 +9,7 @@
     "build": "pnpm build-docs && pnpm build-epub",
     "build-docs": "mark-magic --task docs",
     "build-epub": "mark-magic --task epub",
+    "publishToAo3": "mark-magic --task publishToAo3",
     "deploy": "gh-pages -d ./dist/docs --dotfiles",
     "dev": "vitepress dev books/zh-CN",
     "preview": "pnpm build-docs && live-server dist/docs --no-browser"
@@ -17,7 +18,7 @@
     "@ffflorian/jszip-cli": "^3.6.5",
     "@hackmd/markdown-it-task-lists": "^2.1.4",
     "@mark-magic/cli": "^0.14.1",
-    "@mark-magic/plugin-ao3": "^0.13.0",
+    "@mark-magic/plugin-ao3": "^0.15.1",
     "@mark-magic/plugin-docs": "^0.15.0",
     "@mark-magic/plugin-doctran": "^0.14.0",
     "@mark-magic/plugin-epub": "^0.13.0",
