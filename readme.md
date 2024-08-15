@@ -14,7 +14,7 @@ Logo 由 [defenestrator](https://forums.sufficientvelocity.com/members/defenestr
 ## 分卷
 
 - 第一卷
-  - 意料之外的后果
+  - 不可预见的后果
   - 纠缠
   - 直接干预
   - 表层张力
@@ -25,3 +25,13 @@ Logo 由 [defenestrator](https://forums.sufficientvelocity.com/members/defenestr
   - 潜伏行动
   - 不速之客
   - 我们的恩人
+  - 残渣处理
+  - 凡人心弦
+  - 异常物质
+  - 在轨道上
+  - **A Red Letter Day**: 好日子
+  - **We Don't Go To Asunaro...**: 我们不去翌桧市...
+  - **Highway**: 高速公路
+  - **To the White Forest**: 前往白色森林
+
+> 非常多的章节名都引用自游戏《半条命》，请参考现有翻译名。
