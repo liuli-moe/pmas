@@ -54,7 +54,7 @@ tasks:
         creator: Firnagzen
         publisher: rxliuli
         language: zh-CN
-        cover: ./books/zh-CN/assets/cover.jpg
+        cover: ./static/cover.jpg
   - name: publishToAo3
     input:
       name: '@mark-magic/plugin-local'
