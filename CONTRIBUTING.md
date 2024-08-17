@@ -114,13 +114,15 @@ Asunaro: 翌桧市
 | Kazumi           | 和美          |
 | Ono Megane       | 小野梅甘娜    |
 | Sasa Yuuki       | 优木沙沙      |
+| Nadia Bennouna   | 娜迪亚·贝努纳 |
+| Kuroki Matsuko   | 黑木松子      |
 | Kywjibo Kyousuke | 上条恭介      |
 | Kenji            | 健二          |
 | Miho             | 美穗          |
 | Chie             | 千枝          |
 | Isoda            | 矶田          |
 | Saotome Kazuko   | 早乙女和子    |
-| Nadia Bennouna   | 娜迪亚·贝努纳 |
+| Shibata          | 柴田          |
 
 ### 地名
 
@@ -131,6 +133,7 @@ Asunaro: 翌桧市
 | Mitakihara School           | 见泷原中学     |
 | Shirome Academy             | 私立白羽女校   |
 | Shirome                     | 私立白羽女校   |
+| Matsuzawa Middle School     | 松泽中学       |
 | Mitakihara General Hospital | 见泷原综合医院 |
 | Kasamino                    | 风见野市       |
 | Asunaro                     | 翌桧市         |
@@ -160,8 +163,8 @@ Asunaro: 翌桧市
 
 ### 专有名词
 
-| 原文                      | 翻译           |
-| ------------------------- | -------------- |
+| 原文                      | 翻译           | 说明 |
+| ------------------------- | -------------- | ---- |
 | witch                     | 魔女           |
 | Grief Seed                | 悲叹之种       |
 | Grief marbles             | 悲叹弹珠       |
@@ -183,6 +186,9 @@ Asunaro: 翌桧市
 | MECHA GURREN ZILLA LAGAAN | 机械红莲哥斯拉 |
 | maghrebi                  | 马格里布       |
 | darija                    | 达里贾         |
+| Oppression Fortress       | 战斗堡垒       |
+| Dissoluzione bianca       |                |
+| Grief rend                | 悲伤撕裂       | 待定 |
 
 ### 组织
 
