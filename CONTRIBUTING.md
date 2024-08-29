@@ -140,6 +140,7 @@ Asunaro: 翌桧市
 | Mitakihara General Hospital | 见泷原综合医院 |
 | Kasamino                    | 风见野市       |
 | Asunaro                     | 翌桧市         |
+| Nakano Corporation          | 中野公司       |
 
 ### 魔女
 
@@ -167,32 +168,32 @@ Asunaro: 翌桧市
 
 ### 专有名词
 
-| 原文                      | 翻译           | 说明 |
-| ------------------------- | -------------- | ---- |
-| witch                     | 魔女           |
-| Grief Seed                | 悲叹之种       |
-| Grief marbles             | 悲叹弹珠       |
-| Grief cube                | 悲叹魔方       |
-| Soul Gem                  | 灵魂宝石       |
-| Grief                     | 悲伤           |
-| Meguca                    |                |
-| Puella magi               | 魔法少女       |
-| Puerla magi               | 魔法少女       |
-| hunt                      | 狩猎           |
-| Barrier                   | 结界           |
-| Labyrinth                 | 迷宫           |
-| Incubators                | 孵化者         |
-| hammerspace               | 锤子空间       |
-| technology controller     | 科技控制者     |
-| lichbomb                  | 女巫炸弹       |
-| Wraiths                   | 幽灵           |
-| clear Seed                | 净化种子       |
-| MECHA GURREN ZILLA LAGAAN | 机械红莲哥斯拉 |
-| maghrebi                  | 马格里布       |
-| darija                    | 达里贾         |
-| Oppression Fortress       | 战斗堡垒       |
-| Dissoluzione bianca       | 白色溶解       | 待定 |
-| Grief rend                | 悲伤撕裂       | 待定 |
+| 原文                      | 翻译                | 说明 |
+| ------------------------- | ------------------- | ---- |
+| witch                     | 魔女                |
+| Grief Seed                | 悲叹之种            |
+| Grief marbles             | 悲叹弹珠            |
+| Grief cube                | 悲叹魔方            |
+| Soul Gem                  | 灵魂宝石            |
+| Grief                     | 悲伤                |
+| Meguca                    | Meguca              |
+| Puella magi               | 魔法少女            |
+| Puerla magi               | 魔法少女            |
+| hunt                      | 狩猎                |
+| Barrier                   | 结界                |
+| Labyrinth                 | 迷宫                |
+| Incubators                | 孵化者              |
+| hammerspace               | 锤子空间            |
+| technology controller     | 科技控制者          |
+| lichbomb                  | 女巫炸弹            |
+| Wraiths                   | 幽灵                |
+| clear Seed                | 净化种子            |
+| MECHA GURREN ZILLA LAGAAN | 机械红莲哥斯拉      |
+| maghrebi                  | 马格里布            |
+| darija                    | 达里贾              |
+| Oppression Fortress       | 战斗堡垒            |
+| Dissoluzione bianca       | Dissoluzione bianca | 待定 |
+| Grief rend                | 悲伤撕裂            | 待定 |
 
 ### 组织
 
