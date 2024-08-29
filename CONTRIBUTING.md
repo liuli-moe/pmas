@@ -123,6 +123,9 @@ Asunaro: 翌桧市
 | Isoda            | 矶田          |
 | Saotome Kazuko   | 早乙女和子    |
 | Shibata          | 柴田          |
+| Taniguchi Emi    | 谷口惠美      |
+| Sono Mako        | 园真子        |
+| Utsugi Karina    | 宇津木加里奈  |
 
 ### 地名
 
@@ -160,6 +163,7 @@ Asunaro: 翌桧市
 | Dedolere                  | 德多雷(萨布丽娜的魔女)  |
 | Andrea                    | 安德烈亚                |
 | Pythia                    | 皮媞亚                  |
+| Bianca                    | 比安卡                  |
 
 ### 专有名词
 
@@ -172,8 +176,8 @@ Asunaro: 翌桧市
 | Soul Gem                  | 灵魂宝石       |
 | Grief                     | 悲伤           |
 | Meguca                    |                |
-| Puella magi               |                |
-| Puerla magi               |                |
+| Puella magi               | 魔法少女       |
+| Puerla magi               | 魔法少女       |
 | hunt                      | 狩猎           |
 | Barrier                   | 结界           |
 | Labyrinth                 | 迷宫           |
@@ -187,17 +191,17 @@ Asunaro: 翌桧市
 | maghrebi                  | 马格里布       |
 | darija                    | 达里贾         |
 | Oppression Fortress       | 战斗堡垒       |
-| Dissoluzione bianca       |                |
+| Dissoluzione bianca       | 白色溶解       | 待定 |
 | Grief rend                | 悲伤撕裂       | 待定 |
 
 ### 组织
 
-| 原文            | 翻译     |
-| --------------- | -------- |
-| Uni group       | 优妮组   |
-| Pleiades Saints | 昴宿圣团 |
-|                 | 仙台组   |
-|                 | 大学组   |
+| 原文             | 翻译     |
+| ---------------- | -------- |
+| Uni group        | 优妮组   |
+| Pleiades Saints  | 昴宿圣团 |
+| Sendai Group     | 仙台组   |
+| University group | 大学组   |
 
 ### 日语罗马片假名词
 
