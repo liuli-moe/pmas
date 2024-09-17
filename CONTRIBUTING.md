@@ -165,6 +165,8 @@ Asunaro: 翌桧市
 | Andrea                    | 安德烈亚                |
 | Pythia                    | 皮媞亚                  |
 | Bianca                    | 比安卡                  |
+| Rochelle                  | 罗谢尔                  |
+| Decima                    | 德西玛                  |
 
 ### 专有名词
 

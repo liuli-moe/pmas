@@ -115,6 +115,7 @@ const chinese: [string | RegExp, string][] = [
   ['This mortal coil pt.', '凡人心弦'],
   ['Anomalous Materials pt.', '异常物质'],
   ['Anomalous materials pt.', '异常物质'],
+  ['On a Rail pt.', '在轨道上'],
   ['库薇拉', '库维拉'],
   ['蕾米尔', '拉米尔'],
   ['昴星团', '昴宿圣团'],
