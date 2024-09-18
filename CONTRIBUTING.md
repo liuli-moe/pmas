@@ -104,9 +104,11 @@ Asunaro: 翌桧市
 | Inoue Yuuki      | 井上悠纪      |
 | Kato Setsuko     | 加藤雪子      |
 | Ueda Miyako      | 上田美夜子    |
+| Ueda Noa         | 上田诺亚      |
 | Kagome Ayaka     | 加贺目绫香    |
 | Akiyama Atsuko   | 秋山敦子      |
 | Koizumi Sasami   | 小泉砂美      |
+| Ramiel           | 拉米尔        |
 | Nishimura Moe    | 西村萌        |
 | Soujo Ayase      | 双树绫濑      |
 | Soujo Luca       | 双树流香      |
@@ -170,8 +172,8 @@ Asunaro: 翌桧市
 
 ### 专有名词
 
-| 原文                      | 翻译                | 说明 |
-| ------------------------- | ------------------- | ---- |
+| 原文                      | 翻译                |
+| ------------------------- | ------------------- |
 | witch                     | 魔女                |
 | Grief Seed                | 悲叹之种            |
 | Grief marbles             | 悲叹弹珠            |
@@ -189,13 +191,15 @@ Asunaro: 翌桧市
 | technology controller     | 科技控制者          |
 | lichbomb                  | 女巫炸弹            |
 | Wraiths                   | 幽灵                |
-| clear Seed                | 净化种子            |
+| clear Seed                | 净化之种            |
 | MECHA GURREN ZILLA LAGAAN | 机械红莲哥斯拉      |
 | maghrebi                  | 马格里布            |
 | darija                    | 达里贾              |
 | Oppression Fortress       | 战斗堡垒            |
-| Dissoluzione bianca       | Dissoluzione bianca | 待定 |
-| Grief rend                | 悲伤撕裂            | 待定 |
+| Dissoluzione bianca       | Dissoluzione bianca |
+| Grief rend                | 悲伤撕裂            |
+| Prima Luce                | Prima Luce          |
+| Tiro Finale               | Tiro Finale         |
 
 ### 组织
 
