@@ -25,11 +25,11 @@ importers:
         specifier: ^0.15.1
         version: 0.15.1
       '@mark-magic/plugin-docs':
-        specifier: ^0.15.0
-        version: 0.15.0(@algolia/client-search@5.5.1)(@types/node@22.5.5)(markdown-it@14.1.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2)
+        specifier: ^0.16.0
+        version: 0.16.0(@algolia/client-search@5.5.1)(@types/node@22.5.5)(markdown-it@14.1.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2)
       '@mark-magic/plugin-doctran':
         specifier: ^0.14.0
-        version: 0.14.0(ignore@6.0.2)(openai@4.62.1(zod@3.23.8))
+        version: 0.14.0(ignore@5.3.2)(openai@4.62.1(zod@3.23.8))
       '@mark-magic/plugin-epub':
         specifier: ^0.13.0
         version: 0.13.0
@@ -820,8 +820,8 @@ packages:
   '@mark-magic/plugin-ao3@0.15.1':
     resolution: {integrity: sha512-KiIxuPlq/1CciLADmf471RPjsIxQ2zsm0qDbNMHC/COo35yRR/dbYNIshePQj1JZo0kEq+Klr4/UBUReUttePA==}
 
-  '@mark-magic/plugin-docs@0.15.0':
-    resolution: {integrity: sha512-ek9A72PSkkrTMTfVgCnnIRBCyYSdbkoLsntagh8rlTtmZuTxlvUWXBnQ7mdte7d20f4paWUD/M/EGJsAPiNV0Q==}
+  '@mark-magic/plugin-docs@0.16.0':
+    resolution: {integrity: sha512-1RTwpUuttxciHY/sOKk45lbSUALfBENRAALrMterhcMP0jEviXKOSQ/R/CwjlvYgJqhL0trAH9FUd00CX2M5jg==}
 
   '@mark-magic/plugin-doctran@0.14.0':
     resolution: {integrity: sha512-uUTd6ow3EbizTSBdiFugN4tKRChgKcmo+wZEHB/kZWtlcuiqy1r+x2T8AvinpOnTo7LBBOzOn5fMwprYjg31cQ==}
@@ -1707,10 +1707,6 @@ packages:
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
-    engines: {node: '>= 4'}
-
-  ignore@6.0.2:
-    resolution: {integrity: sha512-InwqeHHN2XpumIkMvpl/DCJVrAHgCsG5+cn1XlnLWGwtZBm8QJfSusItfrwx81CTp5agNZqpKU2J/ccC5nGT4A==}
     engines: {node: '>= 4'}
 
   immediate@3.0.6:
@@ -3465,8 +3461,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mark-magic/plugin-docs@0.15.0(@algolia/client-search@5.5.1)(@types/node@22.5.5)(markdown-it@14.1.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2)':
+  '@mark-magic/plugin-docs@0.16.0(@algolia/client-search@5.5.1)(@types/node@22.5.5)(markdown-it@14.1.0)(postcss@8.4.47)(search-insights@2.17.2)(typescript@5.6.2)':
     dependencies:
+      '@hackmd/markdown-it-task-lists': 2.1.4
       '@liuli-util/fs': 0.1.0
       '@liuli-util/markdown-util': 0.9.2
       '@liuli-util/tree': 3.9.0
@@ -3516,7 +3513,7 @@ snapshots:
       - typescript
       - universal-cookie
 
-  '@mark-magic/plugin-doctran@0.14.0(ignore@6.0.2)(openai@4.62.1(zod@3.23.8))':
+  '@mark-magic/plugin-doctran@0.14.0(ignore@5.3.2)(openai@4.62.1(zod@3.23.8))':
     dependencies:
       '@liuli-util/async': 3.7.0
       '@mark-magic/core': 0.12.0
@@ -3525,7 +3522,7 @@ snapshots:
       find-cache-dir: 5.0.0
       fs-extra: 11.2.0
       google-translate-api-x: 10.7.1
-      langchain: 0.0.209(ignore@6.0.2)(openai@4.62.1(zod@3.23.8))
+      langchain: 0.0.209(ignore@5.3.2)(openai@4.62.1(zod@3.23.8))
       lodash-es: 4.17.21
       pathe: 1.1.2
     transitivePeerDependencies:
@@ -4647,9 +4644,6 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  ignore@6.0.2:
-    optional: true
-
   immediate@3.0.6: {}
 
   import-fresh@3.3.0:
@@ -4746,7 +4740,7 @@ snapshots:
 
   kind-of@6.0.3: {}
 
-  langchain@0.0.209(ignore@6.0.2)(openai@4.62.1(zod@3.23.8)):
+  langchain@0.0.209(ignore@5.3.2)(openai@4.62.1(zod@3.23.8)):
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
       '@langchain/community': 0.0.57(openai@4.62.1(zod@3.23.8))
@@ -4767,7 +4761,7 @@ snapshots:
       zod: 3.23.8
       zod-to-json-schema: 3.20.3(zod@3.23.8)
     optionalDependencies:
-      ignore: 6.0.2
+      ignore: 5.3.2
     transitivePeerDependencies:
       - '@aws-crypto/sha256-js'
       - '@aws-sdk/client-bedrock-agent-runtime'

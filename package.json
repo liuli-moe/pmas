@@ -19,7 +19,7 @@
     "@hackmd/markdown-it-task-lists": "^2.1.4",
     "@mark-magic/cli": "^0.14.1",
     "@mark-magic/plugin-ao3": "^0.15.1",
-    "@mark-magic/plugin-docs": "^0.15.0",
+    "@mark-magic/plugin-docs": "^0.16.0",
     "@mark-magic/plugin-doctran": "^0.14.0",
     "@mark-magic/plugin-epub": "^0.13.0",
     "@mark-magic/plugin-local": "^0.14.0",
