@@ -128,6 +128,9 @@ Asunaro: 翌桧市
 | Taniguchi Emi    | 谷口惠美      |
 | Sono Mako        | 园真子        |
 | Utsugi Karina    | 宇津木加里奈  |
+| Kaname Tomohisa  | 鹿目知久      |
+| Kaname Junko     | 鹿目询子      |
+| Mikuni Hisaomi   | 美国久臣      |
 
 ### 地名
 

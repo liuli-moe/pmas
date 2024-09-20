@@ -116,6 +116,7 @@ const chinese: [string | RegExp, string][] = [
   ['Anomalous Materials pt.', '异常物质'],
   ['Anomalous materials pt.', '异常物质'],
   ['On a Rail pt.', '在轨道上'],
+  ['On a rail pt.', '在轨道上'],
   ['库薇拉', '库维拉'],
   ['蕾米尔', '拉米尔'],
   ['昴星团', '昴宿圣团'],
@@ -168,6 +169,8 @@ const chinese: [string | RegExp, string][] = [
   ['最小战斗堡垒', '微型战斗堡垒'],
   ['滨崎', '浜崎'],
   ['游马', '由麻'],
+  ['日向', '仁美'],
+  ['日笠', '仁美'],
   // ['Sabrina', '萨布丽娜'],
 ]
 
