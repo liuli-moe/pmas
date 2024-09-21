@@ -149,29 +149,32 @@ Asunaro: 翌桧市
 
 ### 魔女
 
-| 原文                      | 翻译                    |
-| ------------------------- | ----------------------- |
-| Walpurgisnacht            | 魔女之夜                |
-| stage-constructing witch  | 舞台裝置的魔女          |
-| Charlotte                 | 夏洛特                  |
-| Candeloro                 | 坎德罗罗                |
-| Gertrud                   | 格特鲁德                |
-| Aurora                    | 奥罗拉                  |
-| box Witch                 | 箱之魔女                |
-| H.N. Elly                 | 箱之魔女                |
-| Witch of Darkness/Suleika | 黑暗的魔女/苏莱卡       |
-| Hildegard                 | 希尔德加德              |
-| Hildegarde                | 希尔德加德              |
-| Gwen                      | 格温                    |
-| Irene                     | 艾琳                    |
-| Jane                      | 简                      |
-| Elsa Maria                | 影之魔女/艾尔莎・玛丽亚 |
-| Dedolere                  | 德多雷(萨布丽娜的魔女)  |
-| Andrea                    | 安德烈亚                |
-| Pythia                    | 皮媞亚                  |
-| Bianca                    | 比安卡                  |
-| Rochelle                  | 罗谢尔                  |
-| Decima                    | 德西玛                  |
+| 原文                     | 翻译                 |
+| ------------------------ | -------------------- |
+| Walpurgisnacht           | 魔女之夜             |
+| stage-constructing witch | 舞台裝置的魔女       |
+| Charlotte                | 夏洛特               |
+| Candeloro                | 坎德罗罗             |
+| Gertrud                  | 格特鲁德             |
+| Aurora                   | 奥罗拉               |
+| box Witch                | 箱之魔女             |
+| H.N. Elly                | 箱之魔女             |
+| Witch of Darkness        | 黑暗的魔女           |
+| Suleika                  | 苏莱卡               |
+| Hildegard                | 希尔德加德           |
+| Hildegarde               | 希尔德加德           |
+| Gwen                     | 格温                 |
+| Irene                    | 艾琳                 |
+| Jane                     | 简                   |
+| Elsa Maria               | 艾尔莎・玛丽亚       |
+| Dedolere                 | 德多雷               |
+| Andrea                   | 安德烈亚             |
+| Pythia                   | 皮媞亚               |
+| Bianca                   | 比安卡               |
+| Rochelle                 | 罗谢尔               |
+| Decima                   | 德西玛               |
+| Ann                      | 安                   |
+| Kriemhild Gretchen       | 克里姆希尔特・格雷琴 |
 
 ### 专有名词
 
