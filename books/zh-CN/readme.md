@@ -1,4 +1,4 @@
-# 魔法少女小圆 打破系统
+# 魔法少女小圆 悲伤系统
 
 > 原作 [Puella Magi Adfligo Systema](https://forums.sufficientvelocity.com/threads/2538/)，作者 [Firnagzen](https://forums.sufficientvelocity.com/members/firnagzen.386/)
 
