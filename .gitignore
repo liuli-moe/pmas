@@ -8,6 +8,7 @@ dist/
 # Generated files
 .docusaurus
 .cache-loader
+.claude
 
 # Misc
 .DS_Store

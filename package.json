@@ -16,6 +16,7 @@
     "format": "prettier --write books/zh-CN/*.md"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
     "@ffflorian/jszip-cli": "^3.7.2",
     "@hackmd/markdown-it-task-lists": "^2.1.4",
     "@mark-magic/cli": "^0.14.1",
