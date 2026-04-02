@@ -17,7 +17,7 @@ jobs:
       name: ao3
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Setup pnpm
@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: pnpm i --frozen-lockfile
       - name: Cache node_modules based on Markdown files
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: |
             node_modules/.cache
