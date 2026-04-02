@@ -40,7 +40,10 @@ jobs:
       - name: Build
         run: |
           pnpm build
+          ls -la dist/
           ls -l dist/epub
+        env:
+          NODE_OPTIONS: '--max-old-space-size=8192'
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
