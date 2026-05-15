@@ -1,15 +1,4 @@
 tasks:
-  - name: fetch
-    input:
-      name: '@mark-magic/plugin-ao3'
-      config:
-        url: https://forums.sufficientvelocity.com/threads/puella-magi-adfligo-systema.2538/
-        site: sufficientvelocity
-        cached: true
-    output:
-      name: '@mark-magic/plugin-local'
-      config:
-        path: ./books/en-US
   - name: docs
     input:
       name: '@mark-magic/plugin-local'
@@ -55,16 +44,6 @@ tasks:
         publisher: rxliuli
         language: zh-CN
         cover: ./static/cover.jpg
-  - name: publishToAo3
-    input:
-      name: '@mark-magic/plugin-local'
-      config:
-        path: ./books/zh-CN
-    output:
-      name: '@mark-magic/plugin-ao3'
-      config:
-        id: '53445904'
-        cookie: ${AO3_COOKIE}
   - name: trans
     input:
       name: '@mark-magic/plugin-local'

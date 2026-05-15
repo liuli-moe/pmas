@@ -4,39 +4,36 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "fetch": "mark-magic --task fetch",
     "lint": "vite-node replace.ts -t en && markdownlint -f books/en-US/*.md",
     "build": "pnpm build-docs && pnpm build-epub",
     "build-docs": "mark-magic --task docs",
     "build-epub": "mark-magic --task epub",
-    "publishToAo3": "mark-magic --task publishToAo3",
     "deploy": "gh-pages -d ./dist/docs --dotfiles",
     "dev": "vitepress dev books/zh-CN",
     "preview": "pnpm build-docs && live-server dist/docs --no-browser",
     "format": "prettier --write books/zh-CN/*.md"
   },
   "devDependencies": {
-    "@anthropic-ai/sdk": "^0.80.0",
-    "@ffflorian/jszip-cli": "^3.7.2",
+    "@anthropic-ai/sdk": "^0.96.0",
+    "@ffflorian/jszip-cli": "^3.16.1",
     "@hackmd/markdown-it-task-lists": "^2.1.4",
-    "@mark-magic/cli": "^0.14.1",
-    "@mark-magic/plugin-ao3": "^0.15.1",
-    "@mark-magic/plugin-docs": "^0.16.0",
-    "@mark-magic/plugin-doctran": "^0.14.0",
-    "@mark-magic/plugin-epub": "^0.13.0",
-    "@mark-magic/plugin-local": "^0.14.0",
-    "gh-pages": "^6.1.1",
-    "markdown-it-cjk-space-clean": "^0.2.0",
-    "markdownlint": "^0.35.0",
-    "markdownlint-cli": "^0.41.0",
-    "prettier": "^3.3.3",
-    "typescript": "^5.6.2",
-    "vite-node": "^2.1.1",
+    "@mark-magic/cli": "^0.22.0",
+    "@mark-magic/plugin-docs": "^0.22.0",
+    "@mark-magic/plugin-doctran": "^0.22.0",
+    "@mark-magic/plugin-epub": "^0.22.0",
+    "@mark-magic/plugin-local": "^0.22.0",
+    "gh-pages": "^6.3.0",
+    "markdown-it-cjk-space-clean": "^0.3.0",
+    "markdownlint": "^0.40.0",
+    "markdownlint-cli": "^0.48.0",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
+    "vite-node": "^6.0.0",
     "vitepress": "^1.6.4",
-    "vitepress-sidebar": "^1.33.1",
-    "zx": "^8.1.7"
+    "vitepress-sidebar": "^1.33.2",
+    "zx": "^8.8.5"
   },
   "dependencies": {
-    "@liuli-util/markdown-util": "^0.9.2"
+    "@liuli-util/markdown-util": "^0.10.0"
   }
 }
